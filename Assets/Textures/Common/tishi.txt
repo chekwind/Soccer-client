@@ -1,0 +1,60 @@
+{"frames": {
+
+"public_02.png":
+{
+	"frame": {"x":2,"y":2,"w":184,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":76},
+	"sourceSize": {"w":184,"h":76}
+},
+"public_03.png":
+{
+	"frame": {"x":188,"y":2,"w":184,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":184,"h":76},
+	"sourceSize": {"w":184,"h":76}
+},
+"public_14.png":
+{
+	"frame": {"x":374,"y":2,"w":77,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":38},
+	"sourceSize": {"w":79,"h":42}
+},
+"public_Over1.png":
+{
+	"frame": {"x":453,"y":2,"w":244,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":83},
+	"sourceSize": {"w":244,"h":83}
+},
+"public_Over2.png":
+{
+	"frame": {"x":2,"y":87,"w":381,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":381,"h":83},
+	"sourceSize": {"w":381,"h":83}
+},
+"publick_showmsg.png":
+{
+	"frame": {"x":385,"y":87,"w":532,"h":324},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":532,"h":324},
+	"sourceSize": {"w":532,"h":324}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "tishi.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:19fe11a4536bc35765401587ffcfe827$"
+}
+}

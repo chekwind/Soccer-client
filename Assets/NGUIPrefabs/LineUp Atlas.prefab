@@ -1,0 +1,651 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 5
+  m_Name: LineUp Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d061279ee449f423db978b8c41dab491, type: 2}
+  sprites:
+  - name: lineupbg
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 779
+      width: 1024
+      height: 578
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 779
+      width: 1024
+      height: 578
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Main_btn1
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 2
+      width: 165
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 2
+      width: 165
+      height: 65
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0484848469
+    paddingTop: 0
+    paddingBottom: .0307692308
+  - name: Main_btn1_down
+    outer:
+      serializedVersion: 2
+      x: 778
+      y: 2
+      width: 165
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 778
+      y: 2
+      width: 165
+      height: 65
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0484848469
+    paddingTop: 0
+    paddingBottom: .0307692308
+  - name: Main_btn2
+    outer:
+      serializedVersion: 2
+      x: 945
+      y: 2
+      width: 165
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 945
+      y: 2
+      width: 165
+      height: 65
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0484848469
+    paddingTop: 0
+    paddingBottom: .0307692308
+  - name: Main_btn2_down
+    outer:
+      serializedVersion: 2
+      x: 611
+      y: 2
+      width: 165
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 611
+      y: 2
+      width: 165
+      height: 65
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0484848469
+    paddingTop: 0
+    paddingBottom: .0307692308
+  - name: public_Over1
+    outer:
+      serializedVersion: 2
+      x: 1353
+      y: 2
+      width: 244
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 1353
+      y: 2
+      width: 244
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tactical_ChangeBg
+    outer:
+      serializedVersion: 2
+      x: 1523
+      y: 105
+      width: 186
+      height: 155
+    inner:
+      serializedVersion: 2
+      x: 1523
+      y: 105
+      width: 186
+      height: 155
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tactical_ChuFang
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_ChuGong
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 767
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_ChuZu
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_down
+    outer:
+      serializedVersion: 2
+      x: 197
+      y: 2
+      width: 53
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 197
+      y: 2
+      width: 53
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tactical_downlight
+    outer:
+      serializedVersion: 2
+      x: 32
+      y: 2
+      width: 53
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 32
+      y: 2
+      width: 53
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0769230798
+    paddingBottom: 0
+  - name: Tactical_DuiHao
+    outer:
+      serializedVersion: 2
+      x: 1266
+      y: 2
+      width: 85
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 1266
+      y: 2
+      width: 85
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0235294122
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tactical_GaoFang
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_GaoFangAn
+    outer:
+      serializedVersion: 2
+      x: 389
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 389
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_GaoGong
+    outer:
+      serializedVersion: 2
+      x: 1271
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 1271
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_GaoGongAn
+    outer:
+      serializedVersion: 2
+      x: 1397
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 1397
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_GaoZu
+    outer:
+      serializedVersion: 2
+      x: 1145
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 1145
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_GaoZuAn
+    outer:
+      serializedVersion: 2
+      x: 1019
+      y: 105
+      width: 124
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 1019
+      y: 105
+      width: 124
+      height: 152
+    rotated: 0
+    paddingLeft: .0403225794
+    paddingRight: .0564516112
+    paddingTop: .0263157897
+    paddingBottom: .0394736826
+  - name: Tactical_huanren
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 2
+      width: 77
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 2
+      width: 77
+      height: 39
+    rotated: 0
+    paddingLeft: .103896104
+    paddingRight: .077922076
+    paddingTop: .15384616
+    paddingBottom: .205128208
+  - name: TacTical_LightClickCard
+    outer:
+      serializedVersion: 2
+      x: 1599
+      y: 2
+      width: 141
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 1599
+      y: 2
+      width: 141
+      height: 101
+    rotated: 0
+    paddingLeft: .0354609936
+    paddingRight: .0354609936
+    paddingTop: .0297029708
+    paddingBottom: .0495049506
+  - name: Tactical_MiddleLine
+    outer:
+      serializedVersion: 2
+      x: 916
+      y: 262
+      width: 930
+      height: 515
+    inner:
+      serializedVersion: 2
+      x: 916
+      y: 262
+      width: 930
+      height: 515
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0139784943
+    paddingTop: .0310679618
+    paddingBottom: .0271844659
+  - name: Tactical_rightbg
+    outer:
+      serializedVersion: 2
+      x: 1140
+      y: 1359
+      width: 326
+      height: 662
+    inner:
+      serializedVersion: 2
+      x: 1140
+      y: 1359
+      width: 326
+      height: 662
+    rotated: 0
+    paddingLeft: .150306746
+    paddingRight: .150306746
+    paddingTop: .0271903332
+    paddingBottom: .0543806665
+  - name: tactical_Shengjile
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 105
+      width: 385
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 105
+      width: 385
+      height: 122
+    rotated: 0
+    paddingLeft: .0545454547
+    paddingRight: .0233766232
+    paddingTop: .0163934417
+    paddingBottom: .0819672123
+  - name: Tactical_star
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 28
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 28
+      height: 26
+    rotated: 0
+    paddingLeft: .0714285746
+    paddingRight: .0714285746
+    paddingTop: .0769230798
+    paddingBottom: .15384616
+  - name: Tactical_starLight
+    outer:
+      serializedVersion: 2
+      x: 252
+      y: 2
+      width: 32
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 252
+      y: 2
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0666666701
+    paddingBottom: 0
+  - name: Tactical_training
+    outer:
+      serializedVersion: 2
+      x: 365
+      y: 2
+      width: 77
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 365
+      y: 2
+      width: 77
+      height: 39
+    rotated: 0
+    paddingLeft: .077922076
+    paddingRight: .103896104
+    paddingTop: .15384616
+    paddingBottom: .205128208
+  - name: Tactical_up
+    outer:
+      serializedVersion: 2
+      x: 142
+      y: 2
+      width: 53
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 142
+      y: 2
+      width: 53
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Tactical_upbtn
+    outer:
+      serializedVersion: 2
+      x: 1112
+      y: 2
+      width: 76
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 1112
+      y: 2
+      width: 76
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0263157897
+    paddingTop: .0399999991
+    paddingBottom: .0399999991
+  - name: Tactical_upbtnpress
+    outer:
+      serializedVersion: 2
+      x: 1190
+      y: 2
+      width: 74
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 1190
+      y: 2
+      width: 74
+      height: 75
+    rotated: 0
+    paddingLeft: .0135135138
+    paddingRight: .0405405387
+    paddingTop: .0133333337
+    paddingBottom: .0666666701
+  - name: Tactical_uplight
+    outer:
+      serializedVersion: 2
+      x: 87
+      y: 2
+      width: 53
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 87
+      y: 2
+      width: 53
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Task_whitebg
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 262
+      width: 912
+      height: 235
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 262
+      width: 912
+      height: 235
+    rotated: 0
+    paddingLeft: .0142543856
+    paddingRight: .00986842066
+    paddingTop: .0425531901
+    paddingBottom: .0340425521
+  - name: Tour_bground.jpg
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 1359
+      width: 1136
+      height: 640
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 1359
+      width: 1136
+      height: 640
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,92 @@
+{"frames": {
+
+"store_bg.png":
+{
+	"frame": {"x":2,"y":2,"w":940,"h":557},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":10,"w":940,"h":557},
+	"sourceSize": {"w":954,"h":567}
+},
+"store_buy.png":
+{
+	"frame": {"x":610,"y":596,"w":83,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":84},
+	"sourceSize": {"w":83,"h":84}
+},
+"store_buyclick.png":
+{
+	"frame": {"x":880,"y":561,"w":83,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":84},
+	"sourceSize": {"w":83,"h":84}
+},
+"store_buyshowmsg.png":
+{
+	"frame": {"x":2,"y":561,"w":606,"h":447},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":606,"h":447},
+	"sourceSize": {"w":632,"h":469}
+},
+"store_coin.png":
+{
+	"frame": {"x":944,"y":124,"w":33,"h":34},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":33,"h":34},
+	"sourceSize": {"w":41,"h":40}
+},
+"store_coinbg.png":
+{
+	"frame": {"x":610,"y":561,"w":147,"h":33},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":147,"h":33},
+	"sourceSize": {"w":155,"h":41}
+},
+"store_left.png":
+{
+	"frame": {"x":944,"y":63,"w":51,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":59},
+	"sourceSize": {"w":51,"h":59}
+},
+"store_middlecoin.png":
+{
+	"frame": {"x":759,"y":561,"w":119,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":119,"h":45},
+	"sourceSize": {"w":121,"h":49}
+},
+"store_right.png":
+{
+	"frame": {"x":944,"y":2,"w":51,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":59},
+	"sourceSize": {"w":51,"h":59}
+},
+"store_singlebg.png":
+{
+	"frame": {"x":2,"y":1010,"w":449,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":5,"w":449,"h":145},
+	"sourceSize": {"w":459,"h":155}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "store.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d99d2425b2b3cdb07b60e5caa2d74f86$"
+}
+}

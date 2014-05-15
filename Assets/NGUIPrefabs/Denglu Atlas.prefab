@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Denglu Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6795939b7da4945c5be9a1d641fe8f0d, type: 2}
+  sprites:
+  - name: LoginIn_Begin
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 770
+      width: 374
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 770
+      width: 374
+      height: 124
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginIn_Beginclick
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 644
+      width: 374
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 644
+      width: 374
+      height: 124
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginIn_BG2.jpg
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 1136
+      height: 640
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 1136
+      height: 640
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginIn_dlzi
+    outer:
+      serializedVersion: 2
+      x: 337
+      y: 973
+      width: 77
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 337
+      y: 973
+      width: 77
+      height: 41
+    rotated: 0
+    paddingLeft: .0519480519
+    paddingRight: .077922076
+    paddingTop: .024390243
+    paddingBottom: .073170729
+  - name: LoginIn_fuwuqi
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 896
+      width: 230
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 896
+      width: 230
+      height: 75
+    rotated: 0
+    paddingLeft: .0869565234
+    paddingRight: .0695652142
+    paddingTop: .186666667
+    paddingBottom: .13333334
+  - name: LoginIn_fuwuqiclick
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 896
+      width: 230
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 896
+      width: 230
+      height: 75
+    rotated: 0
+    paddingLeft: .0869565234
+    paddingRight: .0695652142
+    paddingTop: .186666667
+    paddingBottom: .13333334
+  - name: LoginIn_fuwuqiclicklist
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 644
+      width: 432
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 644
+      width: 432
+      height: 63
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: LoginIn_SignInClick
+    outer:
+      serializedVersion: 2
+      x: 130
+      y: 973
+      width: 126
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 130
+      y: 973
+      width: 126
+      height: 48
+    rotated: 0
+    paddingLeft: .0317460336
+    paddingRight: 0
+    paddingTop: .0416666679
+    paddingBottom: 0
+  - name: LoginIn_SingIn
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 973
+      width: 126
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 973
+      width: 126
+      height: 48
+    rotated: 0
+    paddingLeft: .0317460336
+    paddingRight: 0
+    paddingTop: .0416666679
+    paddingBottom: 0
+  - name: LoginIn_text
+    outer:
+      serializedVersion: 2
+      x: 378
+      y: 709
+      width: 404
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 378
+      y: 709
+      width: 404
+      height: 52
+    rotated: 0
+    paddingLeft: .0148514854
+    paddingRight: 0
+    paddingTop: .057692308
+    paddingBottom: .057692308
+  - name: LoginIn_zhuce
+    outer:
+      serializedVersion: 2
+      x: 258
+      y: 973
+      width: 77
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 258
+      y: 973
+      width: 77
+      height: 41
+    rotated: 0
+    paddingLeft: .0519480519
+    paddingRight: .077922076
+    paddingTop: .024390243
+    paddingBottom: .073170729
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 5
+  m_Name: Player Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d7ed36562e5da4873b698c527738fff7, type: 2}
+  sprites:
+  - name: bg
+    outer:
+      serializedVersion: 2
+      x: 477
+      y: 409
+      width: 1024
+      height: 577
+    inner:
+      serializedVersion: 2
+      x: 477
+      y: 409
+      width: 1024
+      height: 577
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Player_att01
+    outer:
+      serializedVersion: 2
+      x: 44
+      y: 2
+      width: 52
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 44
+      y: 2
+      width: 52
+      height: 73
+    rotated: 0
+    paddingLeft: .288461536
+    paddingRight: .75
+    paddingTop: .0547945201
+    paddingBottom: .410958916
+  - name: Player_att02
+    outer:
+      serializedVersion: 2
+      x: 226
+      y: 2
+      width: 72
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 226
+      y: 2
+      width: 72
+      height: 71
+    rotated: 0
+    paddingLeft: .277777791
+    paddingRight: .194444448
+    paddingTop: .0845070407
+    paddingBottom: .422535211
+  - name: Player_att03
+    outer:
+      serializedVersion: 2
+      x: 98
+      y: 2
+      width: 62
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 98
+      y: 2
+      width: 62
+      height: 75
+    rotated: 0
+    paddingLeft: .403225809
+    paddingRight: .306451619
+    paddingTop: .0399999991
+    paddingBottom: .386666656
+  - name: Player_att04
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 2
+      width: 62
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 2
+      width: 62
+      height: 73
+    rotated: 0
+    paddingLeft: .370967746
+    paddingRight: .338709682
+    paddingTop: .0547945201
+    paddingBottom: .410958916
+  - name: Player_att05
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 40
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 40
+      height: 73
+    rotated: 0
+    paddingLeft: .875
+    paddingRight: .774999976
+    paddingTop: .0547945201
+    paddingBottom: .410958916
+  - name: Player_att06
+    outer:
+      serializedVersion: 2
+      x: 532
+      y: 2
+      width: 80
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 532
+      y: 2
+      width: 80
+      height: 67
+    rotated: 0
+    paddingLeft: .100000001
+    paddingRight: .224999994
+    paddingTop: .149253726
+    paddingBottom: .447761208
+  - name: Player_att07
+    outer:
+      serializedVersion: 2
+      x: 700
+      y: 2
+      width: 84
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 700
+      y: 2
+      width: 84
+      height: 69
+    rotated: 0
+    paddingLeft: .0357142873
+    paddingRight: .226190478
+    paddingTop: .115942031
+    paddingBottom: .434782594
+  - name: Player_att08
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 2
+      width: 76
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 2
+      width: 76
+      height: 69
+    rotated: 0
+    paddingLeft: .184210524
+    paddingRight: .210526317
+    paddingTop: .130434781
+    paddingBottom: .420289844
+  - name: Player_attk01
+    outer:
+      serializedVersion: 2
+      x: 786
+      y: 2
+      width: 100
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 786
+      y: 2
+      width: 100
+      height: 101
+    rotated: 0
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0297029708
+    paddingBottom: .0297029708
+  - name: Player_attk02
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 2
+      width: 100
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 2
+      width: 100
+      height: 99
+    rotated: 0
+    paddingLeft: .0199999996
+    paddingRight: .0399999991
+    paddingTop: .0404040404
+    paddingBottom: .0404040404
+  - name: Player_attk03
+    outer:
+      serializedVersion: 2
+      x: 1092
+      y: 2
+      width: 100
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 1092
+      y: 2
+      width: 100
+      height: 101
+    rotated: 0
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0297029708
+    paddingBottom: .0297029708
+  - name: Player_attk04
+    outer:
+      serializedVersion: 2
+      x: 1194
+      y: 2
+      width: 100
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 1194
+      y: 2
+      width: 100
+      height: 101
+    rotated: 0
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0297029708
+    paddingBottom: .0297029708
+  - name: Player_attk05
+    outer:
+      serializedVersion: 2
+      x: 1398
+      y: 2
+      width: 100
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 1398
+      y: 2
+      width: 100
+      height: 101
+    rotated: 0
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0297029708
+    paddingBottom: .0297029708
+  - name: Player_attk06
+    outer:
+      serializedVersion: 2
+      x: 1296
+      y: 2
+      width: 100
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 1296
+      y: 2
+      width: 100
+      height: 101
+    rotated: 0
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0297029708
+    paddingBottom: .0297029708
+  - name: Player_attk07
+    outer:
+      serializedVersion: 2
+      x: 888
+      y: 2
+      width: 100
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 888
+      y: 2
+      width: 100
+      height: 101
+    rotated: 0
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0297029708
+    paddingBottom: .0297029708
+  - name: Player_atttiao
+    outer:
+      serializedVersion: 2
+      x: 614
+      y: 2
+      width: 84
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 614
+      y: 2
+      width: 84
+      height: 15
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Player_btn0
+    outer:
+      serializedVersion: 2
+      x: 454
+      y: 2
+      width: 76
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 454
+      y: 2
+      width: 76
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0263157897
+    paddingTop: .0399999991
+    paddingBottom: .0399999991
+  - name: Player_btn1
+    outer:
+      serializedVersion: 2
+      x: 300
+      y: 2
+      width: 74
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 300
+      y: 2
+      width: 74
+      height: 75
+    rotated: 0
+    paddingLeft: .0135135138
+    paddingRight: .0405405387
+    paddingTop: .0133333337
+    paddingBottom: .0666666701
+  - name: Player_kuangl
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 409
+      width: 473
+      height: 565
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 409
+      width: 473
+      height: 565
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Player_leftbg
+    outer:
+      serializedVersion: 2
+      x: 1786
+      y: 2
+      width: 212
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 1786
+      y: 2
+      width: 212
+      height: 125
+    rotated: 0
+    paddingLeft: .0377358496
+    paddingRight: .0377358496
+    paddingTop: .0399999991
+    paddingBottom: .0399999991
+  - name: Player_levelup
+    outer:
+      serializedVersion: 2
+      x: 1591
+      y: 129
+      width: 398
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 1591
+      y: 129
+      width: 398
+      height: 125
+    rotated: 0
+    paddingLeft: .0552763827
+    paddingRight: .0603015088
+    paddingTop: .00800000038
+    paddingBottom: .119999997
+  - name: Player_player01
+    outer:
+      serializedVersion: 2
+      x: 1364
+      y: 129
+      width: 225
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 1364
+      y: 129
+      width: 225
+      height: 278
+    rotated: 0
+    paddingLeft: .0311111119
+    paddingRight: .0488888882
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_player02
+    outer:
+      serializedVersion: 2
+      x: 1137
+      y: 129
+      width: 225
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 1137
+      y: 129
+      width: 225
+      height: 278
+    rotated: 0
+    paddingLeft: .0311111119
+    paddingRight: .0488888882
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_player03
+    outer:
+      serializedVersion: 2
+      x: 910
+      y: 129
+      width: 225
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 910
+      y: 129
+      width: 225
+      height: 278
+    rotated: 0
+    paddingLeft: .0311111119
+    paddingRight: .0488888882
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_player04
+    outer:
+      serializedVersion: 2
+      x: 683
+      y: 129
+      width: 225
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 683
+      y: 129
+      width: 225
+      height: 278
+    rotated: 0
+    paddingLeft: .0311111119
+    paddingRight: .0488888882
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_player05
+    outer:
+      serializedVersion: 2
+      x: 456
+      y: 129
+      width: 225
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 456
+      y: 129
+      width: 225
+      height: 278
+    rotated: 0
+    paddingLeft: .0311111119
+    paddingRight: .0488888882
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_player06
+    outer:
+      serializedVersion: 2
+      x: 229
+      y: 129
+      width: 225
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 229
+      y: 129
+      width: 225
+      height: 278
+    rotated: 0
+    paddingLeft: .0311111119
+    paddingRight: .0488888882
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_player07
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 129
+      width: 225
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 129
+      width: 225
+      height: 278
+    rotated: 0
+    paddingLeft: .0311111119
+    paddingRight: .0488888882
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_playertiao
+    outer:
+      serializedVersion: 2
+      x: 1500
+      y: 2
+      width: 141
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 1500
+      y: 2
+      width: 141
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Player_playertiao0
+    outer:
+      serializedVersion: 2
+      x: 1643
+      y: 2
+      width: 141
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 1643
+      y: 2
+      width: 141
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

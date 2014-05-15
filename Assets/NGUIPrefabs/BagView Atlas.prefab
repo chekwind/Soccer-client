@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 5
+  m_Name: BagView Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5964e6c51a495430d8fc48dfc9f59162, type: 2}
+  sprites:
+  - name: bag_0011Down
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 942
+      width: 217
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 942
+      width: 217
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_0022Down
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 871
+      width: 217
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 871
+      width: 217
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_0033Down
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 765
+      width: 216
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 765
+      width: 216
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_011
+    outer:
+      serializedVersion: 2
+      x: 221
+      y: 836
+      width: 215
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 221
+      y: 836
+      width: 215
+      height: 67
+    rotated: 0
+    paddingLeft: .00930232555
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0298507456
+  - name: bag_022
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 581
+      width: 217
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 581
+      width: 217
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0298507456
+  - name: bag_03
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 765
+      width: 104
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 765
+      width: 104
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_033
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 650
+      width: 216
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 650
+      width: 216
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0298507456
+  - name: bag_05
+    outer:
+      serializedVersion: 2
+      x: 1028
+      y: 2
+      width: 673
+      height: 564
+    inner:
+      serializedVersion: 2
+      x: 1028
+      y: 2
+      width: 673
+      height: 564
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_12
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 581
+      width: 182
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 581
+      width: 182
+      height: 182
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_14
+    outer:
+      serializedVersion: 2
+      x: 404
+      y: 650
+      width: 205
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 404
+      y: 650
+      width: 205
+      height: 65
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_15
+    outer:
+      serializedVersion: 2
+      x: 326
+      y: 719
+      width: 205
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 326
+      y: 719
+      width: 205
+      height: 65
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_add
+    outer:
+      serializedVersion: 2
+      x: 585
+      y: 581
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 585
+      y: 581
+      width: 58
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_addclick
+    outer:
+      serializedVersion: 2
+      x: 525
+      y: 581
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 525
+      y: 581
+      width: 58
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_green
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 836
+      width: 28
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 836
+      width: 28
+      height: 28
+    rotated: 0
+    paddingLeft: .214285716
+    paddingRight: .214285716
+    paddingTop: .214285716
+    paddingBottom: .214285716
+  - name: bag_jian
+    outer:
+      serializedVersion: 2
+      x: 465
+      y: 581
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 465
+      y: 581
+      width: 58
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_jianclick
+    outer:
+      serializedVersion: 2
+      x: 405
+      y: 581
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 405
+      y: 581
+      width: 58
+      height: 58
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_jiantou
+    outer:
+      serializedVersion: 2
+      x: 221
+      y: 905
+      width: 34
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 221
+      y: 905
+      width: 34
+      height: 57
+    rotated: 0
+    paddingLeft: .14705883
+    paddingRight: .14705883
+    paddingTop: .0877192989
+    paddingBottom: .0877192989
+  - name: bag_middle
+    outer:
+      serializedVersion: 2
+      x: 221
+      y: 964
+      width: 137
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 221
+      y: 964
+      width: 137
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag_white
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 719
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 719
+      width: 40
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bagbg
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 1024
+      height: 577
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 1024
+      height: 577
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
