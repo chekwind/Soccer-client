@@ -79,6 +79,7 @@ public class Globals : MonoBehaviour {
 	}
 
 	void OnDestory(){
+		Debug.Log ("destory");
 		NetManager.Close ();
 	}
 
@@ -508,6 +509,9 @@ public class Globals : MonoBehaviour {
 			GameObject.DestroyImmediate(m_BagView.gameObject,true);
 			m_BagView=null;
 		}
+	}
+	public void SetBagRight(ItemJson json){
+		m_BagView.SetBagRight (json);
 	}
 	#endregion
 	#region store

@@ -10,7 +10,8 @@ public class NetMgr : MonoBehaviour {
 	private XTcpClient m_Client;
 	private System.Action m_ConnectSuccessCallBack;
 	private bool m_bWarnLostConnect;
-
+	private string sname;
+	private string spwd;
 	void Awake(){
 		_init ();
 	}
@@ -24,6 +25,7 @@ public class NetMgr : MonoBehaviour {
 	void HandleM_ClientOnError(object sender,DSCClientErrorEventArgs e)
 	{
 		Debug.LogWarning ("::OnError");
+		m_Client.Connect (sIP, iPort);
 	}
 	void HandleM_ClientOnDisconnected(object sender,DSCClientConnectedEventArgs e)
 	{
@@ -45,6 +47,8 @@ public class NetMgr : MonoBehaviour {
 	void _ShowLostConnect(){
 		Globals.It.HideWaiting();
 		Globals.It.ShowWarn (2, 5, null);
+		sname=PlayerPrefs.GetString("KEY_USERNAME", "");
+		spwd=PlayerPrefs.GetString("KEY_USERPWD", "");
 	}
 	void FixedUpdate(){
 		if (m_Client != null && m_Client.Connected) {
@@ -53,6 +57,22 @@ public class NetMgr : MonoBehaviour {
 		if (m_bWarnLostConnect) {
 			m_bWarnLostConnect=false;
 			_ShowLostConnect();
+			if(sname!=null && spwd!=null){
+				System.Action sendMsg = () => {
+					Data_UserLogin data = new Data_UserLogin()
+					{
+						username = sname,
+						password = spwd,
+					};
+					Globals.It.SendMsg(data, Const_ICommand.UserLogin);
+				};
+				if (!Globals.It.Connected) {
+					Globals.It.Connect(sendMsg);
+				}
+				else {
+					sendMsg();
+				}
+			}
 		}
 	}
 	public void ReInit(){

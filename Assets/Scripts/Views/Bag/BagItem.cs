@@ -11,16 +11,15 @@ public class BagItem:MonoBehaviour{
 	
 	public void SetData(ItemJson json){
 		if (json == null) {
-			labelNum.enabled=false;
-			spriteItem.enabled=false;
+			labelNum.gameObject.SetActive(false);
+			spriteItem.gameObject.SetActive(false);
 		} else {
+			itemjson = json;
 			labelNum.text=json.stack.ToString();
 			spriteItem.spriteName=json.Icon;
 		}
 	}
 	public void onClick(){
-//		if (itemjson != null) {
-//			
-//		}
+		Globals.It.SetBagRight (itemjson);
 	}
 }

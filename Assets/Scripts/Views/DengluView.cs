@@ -39,12 +39,12 @@ public class DengluView : MonoBehaviour {
 	
 	public void save (){
 		PlayerPrefs.SetString("KEY_USERNAME", inputUserName.text);
-		PlayerPrefs.SetString("KEY_USERNAME2", inputPassword.text);
+		PlayerPrefs.SetString("KEY_USERPWD", inputPassword.text);
 	}
 	
 	public void read (){
 		string susername = PlayerPrefs.GetString("KEY_USERNAME", "");
-		string susername2 = PlayerPrefs.GetString("KEY_USERNAME2", "");
+		string susername2 = PlayerPrefs.GetString("KEY_USERPWD", "");
 		inputUserName.text = susername;
 		inputPassword.text = susername2;
 	}

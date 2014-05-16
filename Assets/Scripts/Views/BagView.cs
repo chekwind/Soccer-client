@@ -8,13 +8,18 @@ public class BagView:MonoBehaviour{
 	public UIGrid gridBagItemParent;
 	public GameObject gridChildItem;
 	public UIPanel itemPanel;
-	public UISprite spritebtn1, spritebtn2, spritebtn3;
+	public UISprite spritebtn1, spritebtn2, spritebtn3,spriteitem;
+	public UIImageButton btncompose;
+	public UILabel labelItemname;
 	private int ItemPage=1;
 	private BagParent itemParent;
 	private List<BagItem> m_Items = new List<BagItem> ();
 
 	public void show(){
 
+		spriteitem.gameObject.SetActive(false);
+		btncompose.gameObject.SetActive (false);
+		labelItemname.gameObject.SetActive (false);
 		GameObject gridItem = (GameObject)GameObject.Instantiate (gridChildItem);
 		itemParent = gridItem.GetComponent<BagParent> ();
 		switch(ItemPage){
@@ -25,7 +30,6 @@ public class BagView:MonoBehaviour{
 		}
 		m_Items.AddRange (itemParent.Init(ItemPage));
 		NGUIUtility.SetParent (gridBagItemParent.transform, gridItem.transform);
-//		gridBagItemParent.Reposition ();
 	}
 	public void onChangeType(GameObject sprite){
 		switch(sprite.name){
@@ -36,6 +40,13 @@ public class BagView:MonoBehaviour{
 		}
 		GameObject.DestroyImmediate(itemParent.gameObject,true);
 		show ();
+	}
+	public void SetBagRight(ItemJson json){
+		spriteitem.gameObject.SetActive(true);
+		btncompose.gameObject.SetActive (true);
+		labelItemname.gameObject.SetActive (true);
+		labelItemname.text = json.ItemName.ToString ();
+		spriteitem.spriteName = json.Icon;
 	}
 	public void onClose(){
 		Globals.It.DestoryBagView ();
