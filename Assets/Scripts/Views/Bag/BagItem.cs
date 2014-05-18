@@ -19,6 +19,13 @@ public class BagItem:MonoBehaviour{
 			spriteItem.spriteName=json.Icon;
 		}
 	}
+	public int GetItemId(){
+		if(itemjson!=null){
+			return itemjson.itemid;
+		}else{
+			return 0;
+		}
+	}
 	public void onClick(){
 		Globals.It.SetBagRight (itemjson);
 	}

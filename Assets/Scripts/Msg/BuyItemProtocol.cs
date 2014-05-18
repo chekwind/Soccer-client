@@ -10,7 +10,6 @@ public class BuyItemProtocol:IProtocol{
 				Globals.It.DestoryBuyView();
 				Globals.It.MainGamer.proMain.bNeedRefresh=true;
 				Globals.It.ShowMainView();	
-				Globals.It.ShowStoreView();
 				Globals.It.ShowSuccess(data.message);
 			}
 			else{

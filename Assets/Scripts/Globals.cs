@@ -299,6 +299,9 @@ public class Globals : MonoBehaviour {
 				if(m_TrainingView!=null){
 					m_TrainingView.Refresh();
 				}
+				if(m_StoreView!=null){
+						m_StoreView.Refresh();
+				}
 				Globals.It.HideWaiting();
 			}
 		}
@@ -502,6 +505,8 @@ public class Globals : MonoBehaviour {
 				}
 			};
 			StartCoroutine (BundleMgr.CreateObject (kResource.View, "BagView", "BagView", handler));
+		}else{
+			m_BagView.reshow();
 		}
 	}
 	public void DestoryBagView(){//销毁背包视图
@@ -527,9 +532,7 @@ public class Globals : MonoBehaviour {
 			};
 			StartCoroutine (BundleMgr.CreateObject (kResource.View, "StoreView", "StoreView", handler));
 		}
-		else{
-			m_StoreView.Refresh();
-		}
+
 	}
 	public void DestoryStoreView(){//销毁商店视图
 		if (m_StoreView != null) {

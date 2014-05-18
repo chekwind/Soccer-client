@@ -16,6 +16,7 @@ public class Const_ICommand {
 	public const int BagInfo = 201;
 	public const int StoreInfo = 701;
 	public const int BuyItem = 702;
+	public const int UseItem=202;
 }
 
 public class Const_SPath {

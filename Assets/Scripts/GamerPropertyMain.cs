@@ -117,6 +117,7 @@ public class GamerPropertyMain  {
 			ij.Icon=item.tempinfo.Icon;
 			ij.Type=item.tempinfo.Type;
 			ij.ItemPage=item.tempinfo.ItemPage;
+			ij.UseType=item.tempinfo.UseType;
 			lBagItemList.Add(ij);
 		}
 	}

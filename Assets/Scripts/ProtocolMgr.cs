@@ -27,6 +27,7 @@ public class ProtocolMgr : MonoBehaviour {
 		Register (new BagInfoProtocol ());
 		Register (new StoreInfoProtocol ());
 		Register (new BuyItemProtocol ());
+		Register (new UseItemProtocol ());
 	}
 	
 	public void Register(IProtocol protocol) {

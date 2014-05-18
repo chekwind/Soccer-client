@@ -338,3 +338,18 @@ public class Data_BuyItem_R:Data_Base
 	public string message{ get; set; }
 	public Data data{ get; set; }
 }
+public class Data_UseItem:Data_Base
+{
+	public int characterId{ get; set; }
+	public int itemId{ get; set; }
+	public int targetId{ get; set; }
+}
+public class Data_UseItem_R:Data_Base
+{
+	public class Data{
+		
+	}
+	public bool result{ get; set; }
+	public string message{ get; set; }
+	public Data data{ get; set; }
+}
