@@ -73,7 +73,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.chris.xuyou
+  iPhoneBundleIdentifier: com.cc
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 06ee3fb145dcb4ba5b70d620d8207853
