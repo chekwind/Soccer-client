@@ -2,7 +2,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Timers;
 
 public class PlayerView:MonoBehaviour{
 
@@ -14,12 +13,8 @@ public class PlayerView:MonoBehaviour{
 	private bool isontouch;
 	private int attr,needpoint,trainpoint;
 	private bool isfull=false;
-	System.Timers.Timer timer = new Timer ();
-
-	void Start(){
-				timer.Elapsed += new ElapsedEventHandler (add);
-		}
 	
+
 	void Update(){
 				if (isontouch == true) {
 						ShootSlider.sliderValue = (float)(Convert.ToInt32 (labelShoot.text)) / playerjson.MaxShoot;
@@ -150,10 +145,7 @@ public class PlayerView:MonoBehaviour{
 	}
 	public void onPress(GameObject button){
 		isontouch = true;
-		timer.Start ();
-		timer.Interval=100;
-		timer.AutoReset=true;
-		timer.Enabled=true;
+		InvokeRepeating ("add", 0.1F, 0.1F);
 		switch (button.name) {
 		case "shoot":attr=1;break;
 		case "dribbling":attr=2;break;
@@ -168,13 +160,12 @@ public class PlayerView:MonoBehaviour{
 	}
 	public void onRelease(){
 		isontouch = false;
-		timer.Stop ();
-		timer.Enabled = false;
+		CancelInvoke();
 	}
 	public void Refresh(){
 		show(playerjson,2);
 	}
-	public void add(object source,System.Timers.ElapsedEventArgs e){
+	public void add(){
 		if (isontouch) {
 			switch(attr){
 			case 1:attributeAdd(labelShoot,playerjson.MaxShoot);break;
@@ -194,7 +185,7 @@ public class PlayerView:MonoBehaviour{
 		trainpoint-=(attribute+51)/5;
 		if(attribute<max&&trainpoint>0){
 			needpoint+=(attribute+51)/5;
-			label.text="全队训练点："+trainpoint.ToString();
+			labelTrainPoint.text="全队训练点："+trainpoint.ToString();
 			label.text = (attribute + 1).ToString ();
 		}else if(trainpoint<0){
 			Debug.Log("dian shu bu gou");

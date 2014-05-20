@@ -7,9 +7,18 @@ public class RoleEnterGameProtocol:IProtocol{
 		Data_RoleEnterGame_R data = Globals.ToObject<Data_RoleEnterGame_R> (info.body);
 		if (data != null) {
 			if(data.result){
-				Globals.It.MainGamer.proMain.SetRoleEnterGame(data.data);
-				Globals.It.ShowMainView();
-
+				if (!data.data.hasRole) {
+					//					Globals.It.ShowKaiChangGifView();
+					Globals.It.HideWaiting();
+				}
+				else {
+					Globals.It.MainGamer.proMain.SetRoleEnterGame(data.data);
+					if(Globals.It.MainGamer.proMain.lPlayerList.Count==0){
+						Globals.It.RefreshPlayerList();
+					}else{
+						Globals.It.ShowMainView();
+					}
+				}
 			}
 			else{
 				Globals.It.HideWaiting();

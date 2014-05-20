@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using System.Timers;
 using System;
 
 public class PlayerInnerView:MonoBehaviour{
@@ -13,19 +12,17 @@ public class PlayerInnerView:MonoBehaviour{
 	public UISprite sprite1,sprite2,sprite3,sprite4,sprite5;
 	private List<InnerPlayer> m_Players = new List<InnerPlayer> ();
 	private int cs1,cs2,ctime1,ctime2,cost,LeagueIndex;
-	System.Timers.Timer timer = new Timer ();
 
 	void Start(){
-		timer.Elapsed += new ElapsedEventHandler (tick);
-		timer.Interval=1000;
-		timer.AutoReset=true;
-		timer.Enabled=true;
+		InvokeRepeating ("tick", 0, 1);
 	}
 	
 	void Update(){
-
+		if (ctime1 == 0 && ctime2 == 0) {
+			CancelInvoke();
+		}
 	}
-	private void tick(object source,System.Timers.ElapsedEventArgs e){
+	private void tick(){
 		if (cs1 == 0) {
 			labelbai.text="抽取消耗点数：10";
 		}

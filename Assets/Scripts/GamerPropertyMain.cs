@@ -30,8 +30,6 @@ public class GamerPropertyMain  {
 	
 	public void SetLogin(Data_UserLogin_R.Data data){
 		iUserID = data.userId;
-		iCharacterId = data.characterId;
-		bHasRole = data.hasRole;
 	}
 	public void SetRoleEnterGame(Data_RoleEnterGame_R.Data data){
 

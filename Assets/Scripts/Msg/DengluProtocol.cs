@@ -11,13 +11,10 @@ public class DengluProtocol : IProtocol {
 			if (data.result) {
 				Globals.It.DestoryDengluView();
 				Globals.It.MainGamer.proMain.SetLogin(data.data);
-				if (!data.data.hasRole) {
-//					Globals.It.ShowKaiChangGifView();
-					Globals.It.HideWaiting();
-				}
-				else {
-					Globals.It.ShowEnterGameView();
-				}
+//				Globals.It.NetManager.sIP="172.16.2.169";
+//				Globals.It.NetManager.Connect();
+				Globals.It.ShowEnterGameView();
+
 			}
 			else {
 				Globals.It.HideWaiting();

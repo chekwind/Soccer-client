@@ -268,10 +268,18 @@ public class Globals : MonoBehaviour {
 		}
 	}
 	public void ShowEnterGameView(){//创建进入游戏视图
-		ShowWaiting ();
-		Data_RoleEnterGame mode = new Data_RoleEnterGame (){characterId=MainGamer.proMain.iCharacterId};
-		Globals.It.SendMsg (mode, Const_ICommand.RoleEnterGame);
-		Globals.It.SendMsg(mode,Const_ICommand.GetPlayerList);
+		System.Action sendMsg = () => {
+			Data_RoleEnterGame mode = new Data_RoleEnterGame (){userId=MainGamer.proMain.iUserID};
+			Globals.It.SendMsg (mode, Const_ICommand.RoleEnterGame);
+		};
+		Globals.It.ShowWaiting();
+		if (!Globals.It.Connected) {
+			Globals.It.Connect(sendMsg);
+		}
+		else {
+			sendMsg();
+		}
+
 	}
 	public void ShowMainView(){//创建主界面视图
 		if (m_MainView == null) {

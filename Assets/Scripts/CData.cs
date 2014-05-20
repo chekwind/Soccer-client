@@ -13,8 +13,6 @@ public class Data_UserLogin_R:Data_Base
 {
 	public class Data{
 		public int userId{ get; set; }
-		public bool hasRole{ get; set; }
-		public int characterId{ get; set; }
 	}
 	public bool result { get; set; }
 	public string message{ get; set; }
@@ -22,7 +20,7 @@ public class Data_UserLogin_R:Data_Base
 }
 public class Data_RoleEnterGame:Data_Base
 {
-	public int characterId{ get; set; }
+	public int userId{ get; set; }
 }
 public class Data_RoleEnterGame_R:Data_Base
 {
@@ -41,6 +39,7 @@ public class Data_RoleEnterGame_R:Data_Base
 		public int trainpoint{ get; set; }
 		public int zenid{ get; set; }
 		public int tacticspoint{ get; set; }
+		public bool hasRole{ get; set; }
 	}
 
 	public bool result{ get; set; }
