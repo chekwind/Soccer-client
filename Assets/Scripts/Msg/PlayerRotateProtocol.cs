@@ -16,6 +16,8 @@ public class PlayerRotateProtocol:IProtocol{
 				Globals.It.ShowWarn(Const_ITextID.Msg_Tishi,data.message,null);
 				Globals.It.Rotate(0,0);
 			}
+		}else{
+			Globals.It.NetManager.RoleLogin();
 		}
 	}
 	

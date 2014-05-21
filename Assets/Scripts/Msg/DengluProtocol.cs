@@ -18,7 +18,7 @@ public class DengluProtocol : IProtocol {
 			}
 			else {
 				Globals.It.HideWaiting();
-				Globals.It.ShowWarn(Const_ITextID.Msg_Tishi, 14, null);
+				Globals.It.ShowWarn(Const_ITextID.Msg_Tishi, data.message, null);
 			}
 		}
 	}

@@ -16,6 +16,8 @@ public class PlayerTrainingProtocol:IProtocol{
 				Globals.It.ShowWarn(Const_ITextID.Msg_Tishi,data.message,null);
 				Globals.It.RefreshPlayerView();
 			}
+		}else{
+			Globals.It.NetManager.RoleLogin();
 		}
 	}
 	

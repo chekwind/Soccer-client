@@ -45,7 +45,9 @@ public class NetMgr : MonoBehaviour {
 	void _ShowLostConnect(){
 		Globals.It.HideWaiting();
 		Globals.It.ShowWarn (2, 5, null);
-		Invoke ("RoleLogin", 5);
+		if (Globals.It.MainGamer.proMain.iCharacterId != 0) {
+						Invoke ("RoleLogin", 5);
+				}
 	}
 	void FixedUpdate(){
 		if (m_Client != null && m_Client.Connected) {

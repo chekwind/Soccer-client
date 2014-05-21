@@ -17,6 +17,8 @@ public class DismissPlayerProtocol:IProtocol{
 				Globals.It.HideWaiting();
 				Globals.It.ShowWarn(Const_ITextID.Msg_Tishi,data.message,null);
 			}
+		}else{
+			Globals.It.NetManager.RoleLogin();
 		}
 	}
 	
