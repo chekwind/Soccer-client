@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268fc87d441074f1b8dd23ecc4cbb988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sIP: 172.16.2.169
+  sIP: 192.168.1.106
   iPort: 11009
 --- !u!4 &2041443006
 Transform:
