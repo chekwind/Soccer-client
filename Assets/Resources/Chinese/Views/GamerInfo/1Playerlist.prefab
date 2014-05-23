@@ -337,7 +337,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -90, y: 13, z: -1}
+  m_LocalPosition: {x: -89.5, y: 11, z: -1}
   m_LocalScale: {x: 50, y: 50, z: 1}
   m_Children: []
   m_Father: {fileID: 400026}
@@ -389,7 +389,7 @@ Transform:
   m_GameObject: {fileID: 100024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 160, y: 37, z: 0}
-  m_LocalScale: {x: 800, y: 6, z: 1}
+  m_LocalScale: {x: 800, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400026}
 --- !u!4 &400026
@@ -444,12 +444,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 2100000, guid: 499f2be4639544bfba2e84f387132fc6, type: 2}
-  mTex: {fileID: 2800000, guid: a4d17697a0d674fea97e8afd75275407, type: 3}
+  mMat: {fileID: 2100000, guid: d7ed36562e5da4873b698c527738fff7, type: 2}
+  mTex: {fileID: 2800000, guid: b240ae5c38d814caf906721f9b25d7a2, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: bbb1c2bd126d14ef6a5b088a2436a573, type: 2}
+  mAtlas: {fileID: 11400000, guid: bb5f418f4e3154ee9b72c7e3eec4d868, type: 2}
   mSpriteName: Public_Player01
   mFillCenter: 1
   mType: 0
@@ -557,12 +557,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 2100000, guid: 499f2be4639544bfba2e84f387132fc6, type: 2}
-  mTex: {fileID: 2800000, guid: a4d17697a0d674fea97e8afd75275407, type: 3}
+  mMat: {fileID: 2100000, guid: 5b9c6049c38574eb1936ad32b80d802f, type: 2}
+  mTex: {fileID: 2800000, guid: 26ef5fd923b104e6fb08b3973fb1f49d, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: bbb1c2bd126d14ef6a5b088a2436a573, type: 2}
+  mAtlas: {fileID: 11400000, guid: c1698b8a67bb04291bbb0415ac49c0bb, type: 2}
   mSpriteName: 1800l
   mFillCenter: 1
   mType: 0
@@ -580,12 +580,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 2100000, guid: 499f2be4639544bfba2e84f387132fc6, type: 2}
-  mTex: {fileID: 2800000, guid: a4d17697a0d674fea97e8afd75275407, type: 3}
+  mMat: {fileID: 2100000, guid: 5b9c6049c38574eb1936ad32b80d802f, type: 2}
+  mTex: {fileID: 2800000, guid: 26ef5fd923b104e6fb08b3973fb1f49d, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: bbb1c2bd126d14ef6a5b088a2436a573, type: 2}
+  mAtlas: {fileID: 11400000, guid: c1698b8a67bb04291bbb0415ac49c0bb, type: 2}
   mSpriteName: 1700l
   mFillCenter: 1
   mType: 0
@@ -603,12 +603,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 2100000, guid: 499f2be4639544bfba2e84f387132fc6, type: 2}
-  mTex: {fileID: 2800000, guid: a4d17697a0d674fea97e8afd75275407, type: 3}
+  mMat: {fileID: 2100000, guid: 5b9c6049c38574eb1936ad32b80d802f, type: 2}
+  mTex: {fileID: 2800000, guid: 26ef5fd923b104e6fb08b3973fb1f49d, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: bbb1c2bd126d14ef6a5b088a2436a573, type: 2}
+  mAtlas: {fileID: 11400000, guid: c1698b8a67bb04291bbb0415ac49c0bb, type: 2}
   mSpriteName: 1600l
   mFillCenter: 1
   mType: 0
@@ -626,12 +626,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 2100000, guid: 499f2be4639544bfba2e84f387132fc6, type: 2}
-  mTex: {fileID: 2800000, guid: a4d17697a0d674fea97e8afd75275407, type: 3}
+  mMat: {fileID: 2100000, guid: 5b9c6049c38574eb1936ad32b80d802f, type: 2}
+  mTex: {fileID: 2800000, guid: 26ef5fd923b104e6fb08b3973fb1f49d, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: bbb1c2bd126d14ef6a5b088a2436a573, type: 2}
+  mAtlas: {fileID: 11400000, guid: c1698b8a67bb04291bbb0415ac49c0bb, type: 2}
   mSpriteName: 1500l
   mFillCenter: 1
   mType: 0
@@ -649,13 +649,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mMat: {fileID: 2100000, guid: cf4edd614e8ca42869c07c0285f773ba, type: 2}
-  mTex: {fileID: 2800000, guid: 08b5a5065a64146a990a77135d2b8656, type: 3}
+  mMat: {fileID: 2100000, guid: ffa3f6151f0d74f90bfe1d5e163475c8, type: 2}
+  mTex: {fileID: 2800000, guid: d54e5e42535084716900ca73504d4ef8, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 52935d7b84c454e73944599f0d7a6e00, type: 2}
-  mSpriteName: bnpc19
+  mAtlas: {fileID: 11400000, guid: 2e9da1ca025a84f3abf4276f8198fc4e, type: 2}
+  mSpriteName: null
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -734,7 +734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: 907d66ae4b5b14045a70b7f2c212d568, type: 2}
-  mTex: {fileID: 2800000, guid: ea019caefd003488ea10b7ee3160945f, type: 3}
+  mTex: {fileID: 2800000, guid: b952a05e4053c475c87a61255b0f8bde, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5

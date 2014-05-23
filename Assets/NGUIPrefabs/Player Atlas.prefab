@@ -40,125 +40,197 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: d7ed36562e5da4873b698c527738fff7, type: 2}
   sprites:
-  - name: bg
+  - name: Public_Player06
     outer:
       serializedVersion: 2
-      x: 477
-      y: 409
-      width: 1024
-      height: 577
+      x: 1695
+      y: 818
+      width: 121
+      height: 80
     inner:
       serializedVersion: 2
-      x: 477
-      y: 409
-      width: 1024
-      height: 577
+      x: 1695
+      y: 818
+      width: 121
+      height: 80
     rotated: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Player_att01
+  - name: Public_Player04
     outer:
       serializedVersion: 2
-      x: 44
-      y: 2
-      width: 52
-      height: 73
+      x: 1573
+      y: 818
+      width: 121
+      height: 80
     inner:
       serializedVersion: 2
-      x: 44
-      y: 2
-      width: 52
-      height: 73
+      x: 1573
+      y: 818
+      width: 121
+      height: 80
     rotated: 0
-    paddingLeft: .288461536
-    paddingRight: .75
-    paddingTop: .0547945201
-    paddingBottom: .410958916
-  - name: Player_att02
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Public_Player01
     outer:
       serializedVersion: 2
-      x: 226
-      y: 2
-      width: 72
-      height: 71
+      x: 1451
+      y: 818
+      width: 121
+      height: 80
     inner:
       serializedVersion: 2
-      x: 226
-      y: 2
-      width: 72
-      height: 71
+      x: 1451
+      y: 818
+      width: 121
+      height: 80
     rotated: 0
-    paddingLeft: .277777791
-    paddingRight: .194444448
-    paddingTop: .0845070407
-    paddingBottom: .422535211
-  - name: Player_att03
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Public_Player05
     outer:
       serializedVersion: 2
-      x: 98
-      y: 2
-      width: 62
-      height: 75
+      x: 1817
+      y: 818
+      width: 121
+      height: 80
     inner:
       serializedVersion: 2
-      x: 98
-      y: 2
-      width: 62
-      height: 75
+      x: 1817
+      y: 818
+      width: 121
+      height: 80
     rotated: 0
-    paddingLeft: .403225809
-    paddingRight: .306451619
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Public_Player03
+    outer:
+      serializedVersion: 2
+      x: 1250
+      y: 717
+      width: 121
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1250
+      y: 717
+      width: 121
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Public_Player02
+    outer:
+      serializedVersion: 2
+      x: 1372
+      y: 717
+      width: 121
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 1372
+      y: 717
+      width: 121
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Player_player02
+    outer:
+      serializedVersion: 2
+      x: 675
+      y: 168
+      width: 224
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 675
+      y: 168
+      width: 224
+      height: 278
+    rotated: 0
+    paddingLeft: .0357142873
+    paddingRight: .0491071418
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_attk03
+    outer:
+      serializedVersion: 2
+      x: 900
+      y: 245
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 900
+      y: 245
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
     paddingTop: .0399999991
-    paddingBottom: .386666656
-  - name: Player_att04
+    paddingBottom: .0299999993
+  - name: Player_attk05
     outer:
       serializedVersion: 2
-      x: 162
-      y: 2
-      width: 62
-      height: 73
+      x: 860
+      y: 67
+      width: 100
+      height: 100
     inner:
       serializedVersion: 2
-      x: 162
-      y: 2
-      width: 62
-      height: 73
+      x: 860
+      y: 67
+      width: 100
+      height: 100
     rotated: 0
-    paddingLeft: .370967746
-    paddingRight: .338709682
-    paddingTop: .0547945201
-    paddingBottom: .410958916
-  - name: Player_att05
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0399999991
+    paddingBottom: .0299999993
+  - name: Player_attk07
     outer:
       serializedVersion: 2
-      x: 2
-      y: 2
-      width: 40
-      height: 73
+      x: 1833
+      y: 924
+      width: 100
+      height: 100
     inner:
       serializedVersion: 2
-      x: 2
-      y: 2
-      width: 40
-      height: 73
+      x: 1833
+      y: 924
+      width: 100
+      height: 100
     rotated: 0
-    paddingLeft: .875
-    paddingRight: .774999976
-    paddingTop: .0547945201
-    paddingBottom: .410958916
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0399999991
+    paddingBottom: .0299999993
   - name: Player_att06
     outer:
       serializedVersion: 2
-      x: 532
-      y: 2
+      x: 1939
+      y: 831
       width: 80
       height: 67
     inner:
       serializedVersion: 2
-      x: 532
-      y: 2
+      x: 1939
+      y: 831
       width: 80
       height: 67
     rotated: 0
@@ -166,35 +238,53 @@ MonoBehaviour:
     paddingRight: .224999994
     paddingTop: .149253726
     paddingBottom: .447761208
-  - name: Player_att07
+  - name: Player_attk06
     outer:
       serializedVersion: 2
-      x: 700
-      y: 2
-      width: 84
-      height: 69
+      x: 1250
+      y: 798
+      width: 100
+      height: 100
     inner:
       serializedVersion: 2
-      x: 700
-      y: 2
-      width: 84
-      height: 69
+      x: 1250
+      y: 798
+      width: 100
+      height: 100
     rotated: 0
-    paddingLeft: .0357142873
-    paddingRight: .226190478
-    paddingTop: .115942031
-    paddingBottom: .434782594
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0399999991
+    paddingBottom: .0299999993
+  - name: Player_att01
+    outer:
+      serializedVersion: 2
+      x: 1707
+      y: 724
+      width: 52
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 1707
+      y: 724
+      width: 52
+      height: 73
+    rotated: 0
+    paddingLeft: .288461536
+    paddingRight: .75
+    paddingTop: .0547945201
+    paddingBottom: .410958916
   - name: Player_att08
     outer:
       serializedVersion: 2
-      x: 376
-      y: 2
+      x: 1494
+      y: 728
       width: 76
       height: 69
     inner:
       serializedVersion: 2
-      x: 376
-      y: 2
+      x: 1494
+      y: 728
       width: 76
       height: 69
     rotated: 0
@@ -202,402 +292,618 @@ MonoBehaviour:
     paddingRight: .210526317
     paddingTop: .130434781
     paddingBottom: .420289844
-  - name: Player_attk01
-    outer:
-      serializedVersion: 2
-      x: 786
-      y: 2
-      width: 100
-      height: 101
-    inner:
-      serializedVersion: 2
-      x: 786
-      y: 2
-      width: 100
-      height: 101
-    rotated: 0
-    paddingLeft: .0299999993
-    paddingRight: .0299999993
-    paddingTop: .0297029708
-    paddingBottom: .0297029708
-  - name: Player_attk02
-    outer:
-      serializedVersion: 2
-      x: 990
-      y: 2
-      width: 100
-      height: 99
-    inner:
-      serializedVersion: 2
-      x: 990
-      y: 2
-      width: 100
-      height: 99
-    rotated: 0
-    paddingLeft: .0199999996
-    paddingRight: .0399999991
-    paddingTop: .0404040404
-    paddingBottom: .0404040404
-  - name: Player_attk03
-    outer:
-      serializedVersion: 2
-      x: 1092
-      y: 2
-      width: 100
-      height: 101
-    inner:
-      serializedVersion: 2
-      x: 1092
-      y: 2
-      width: 100
-      height: 101
-    rotated: 0
-    paddingLeft: .0299999993
-    paddingRight: .0299999993
-    paddingTop: .0297029708
-    paddingBottom: .0297029708
   - name: Player_attk04
     outer:
       serializedVersion: 2
-      x: 1194
-      y: 2
+      x: 1934
+      y: 924
       width: 100
-      height: 101
+      height: 100
     inner:
       serializedVersion: 2
-      x: 1194
-      y: 2
+      x: 1934
+      y: 924
       width: 100
-      height: 101
+      height: 100
     rotated: 0
     paddingLeft: .0299999993
     paddingRight: .0299999993
-    paddingTop: .0297029708
-    paddingBottom: .0297029708
-  - name: Player_attk05
-    outer:
-      serializedVersion: 2
-      x: 1398
-      y: 2
-      width: 100
-      height: 101
-    inner:
-      serializedVersion: 2
-      x: 1398
-      y: 2
-      width: 100
-      height: 101
-    rotated: 0
-    paddingLeft: .0299999993
-    paddingRight: .0299999993
-    paddingTop: .0297029708
-    paddingBottom: .0297029708
-  - name: Player_attk06
-    outer:
-      serializedVersion: 2
-      x: 1296
-      y: 2
-      width: 100
-      height: 101
-    inner:
-      serializedVersion: 2
-      x: 1296
-      y: 2
-      width: 100
-      height: 101
-    rotated: 0
-    paddingLeft: .0299999993
-    paddingRight: .0299999993
-    paddingTop: .0297029708
-    paddingBottom: .0297029708
-  - name: Player_attk07
-    outer:
-      serializedVersion: 2
-      x: 888
-      y: 2
-      width: 100
-      height: 101
-    inner:
-      serializedVersion: 2
-      x: 888
-      y: 2
-      width: 100
-      height: 101
-    rotated: 0
-    paddingLeft: .0299999993
-    paddingRight: .0299999993
-    paddingTop: .0297029708
-    paddingBottom: .0297029708
-  - name: Player_atttiao
-    outer:
-      serializedVersion: 2
-      x: 614
-      y: 2
-      width: 84
-      height: 15
-    inner:
-      serializedVersion: 2
-      x: 614
-      y: 2
-      width: 84
-      height: 15
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Player_btn0
-    outer:
-      serializedVersion: 2
-      x: 454
-      y: 2
-      width: 76
-      height: 75
-    inner:
-      serializedVersion: 2
-      x: 454
-      y: 2
-      width: 76
-      height: 75
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: .0263157897
     paddingTop: .0399999991
-    paddingBottom: .0399999991
-  - name: Player_btn1
+    paddingBottom: .0299999993
+  - name: Player_att04
     outer:
       serializedVersion: 2
-      x: 300
-      y: 2
-      width: 74
-      height: 75
+      x: 1644
+      y: 725
+      width: 62
+      height: 72
     inner:
       serializedVersion: 2
-      x: 300
-      y: 2
-      width: 74
-      height: 75
+      x: 1644
+      y: 725
+      width: 62
+      height: 72
     rotated: 0
-    paddingLeft: .0135135138
-    paddingRight: .0405405387
-    paddingTop: .0133333337
-    paddingBottom: .0666666701
-  - name: Player_kuangl
-    outer:
-      serializedVersion: 2
-      x: 2
-      y: 409
-      width: 473
-      height: 565
-    inner:
-      serializedVersion: 2
-      x: 2
-      y: 409
-      width: 473
-      height: 565
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Player_leftbg
-    outer:
-      serializedVersion: 2
-      x: 1786
-      y: 2
-      width: 212
-      height: 125
-    inner:
-      serializedVersion: 2
-      x: 1786
-      y: 2
-      width: 212
-      height: 125
-    rotated: 0
-    paddingLeft: .0377358496
-    paddingRight: .0377358496
-    paddingTop: .0399999991
-    paddingBottom: .0399999991
-  - name: Player_levelup
-    outer:
-      serializedVersion: 2
-      x: 1591
-      y: 129
-      width: 398
-      height: 125
-    inner:
-      serializedVersion: 2
-      x: 1591
-      y: 129
-      width: 398
-      height: 125
-    rotated: 0
-    paddingLeft: .0552763827
-    paddingRight: .0603015088
-    paddingTop: .00800000038
-    paddingBottom: .119999997
-  - name: Player_player01
-    outer:
-      serializedVersion: 2
-      x: 1364
-      y: 129
-      width: 225
-      height: 278
-    inner:
-      serializedVersion: 2
-      x: 1364
-      y: 129
-      width: 225
-      height: 278
-    rotated: 0
-    paddingLeft: .0311111119
-    paddingRight: .0488888882
-    paddingTop: .0251798555
-    paddingBottom: .0467625894
-  - name: Player_player02
-    outer:
-      serializedVersion: 2
-      x: 1137
-      y: 129
-      width: 225
-      height: 278
-    inner:
-      serializedVersion: 2
-      x: 1137
-      y: 129
-      width: 225
-      height: 278
-    rotated: 0
-    paddingLeft: .0311111119
-    paddingRight: .0488888882
-    paddingTop: .0251798555
-    paddingBottom: .0467625894
-  - name: Player_player03
-    outer:
-      serializedVersion: 2
-      x: 910
-      y: 129
-      width: 225
-      height: 278
-    inner:
-      serializedVersion: 2
-      x: 910
-      y: 129
-      width: 225
-      height: 278
-    rotated: 0
-    paddingLeft: .0311111119
-    paddingRight: .0488888882
-    paddingTop: .0251798555
-    paddingBottom: .0467625894
-  - name: Player_player04
-    outer:
-      serializedVersion: 2
-      x: 683
-      y: 129
-      width: 225
-      height: 278
-    inner:
-      serializedVersion: 2
-      x: 683
-      y: 129
-      width: 225
-      height: 278
-    rotated: 0
-    paddingLeft: .0311111119
-    paddingRight: .0488888882
-    paddingTop: .0251798555
-    paddingBottom: .0467625894
+    paddingLeft: .370967746
+    paddingRight: .338709682
+    paddingTop: .0694444478
+    paddingBottom: .416666657
   - name: Player_player05
     outer:
       serializedVersion: 2
-      x: 456
-      y: 129
-      width: 225
+      x: 1025
+      y: 188
+      width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 456
-      y: 129
-      width: 225
+      x: 1025
+      y: 188
+      width: 224
       height: 278
     rotated: 0
-    paddingLeft: .0311111119
-    paddingRight: .0488888882
+    paddingLeft: .0357142873
+    paddingRight: .0491071418
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_att03
+    outer:
+      serializedVersion: 2
+      x: 961
+      y: 93
+      width: 61
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 961
+      y: 93
+      width: 61
+      height: 74
+    rotated: 0
+    paddingLeft: .426229507
+    paddingRight: .311475396
+    paddingTop: .0540540554
+    paddingBottom: .391891897
+  - name: Player_playertiao0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 141
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 141
+      height: 18
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Player_att05
+    outer:
+      serializedVersion: 2
+      x: 984
+      y: 172
+      width: 40
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 984
+      y: 172
+      width: 40
+      height: 72
+    rotated: 0
+    paddingLeft: .875
+    paddingRight: .774999976
+    paddingTop: .0694444478
+    paddingBottom: .416666657
+  - name: Player_player01
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 467
+      width: 224
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 467
+      width: 224
+      height: 278
+    rotated: 0
+    paddingLeft: .0357142873
+    paddingRight: .0491071418
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_att02
+    outer:
+      serializedVersion: 2
+      x: 1571
+      y: 727
+      width: 72
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 1571
+      y: 727
+      width: 72
+      height: 70
+    rotated: 0
+    paddingLeft: .277777791
+    paddingRight: .194444448
+    paddingTop: .100000001
+    paddingBottom: .428571433
+  - name: Player_levelup
+    outer:
+      serializedVersion: 2
+      x: 1250
+      y: 899
+      width: 397
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 1250
+      y: 899
+      width: 397
+      height: 125
+    rotated: 0
+    paddingLeft: .0579345077
+    paddingRight: .0604534
+    paddingTop: .00800000038
+    paddingBottom: .119999997
+  - name: Player_player03
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 746
+      width: 224
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 746
+      width: 224
+      height: 278
+    rotated: 0
+    paddingLeft: .0357142873
+    paddingRight: .0491071418
+    paddingTop: .0251798555
+    paddingBottom: .0467625894
+  - name: Player_atttiao
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 18
+      width: 84
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 18
+      width: 84
+      height: 15
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Player_playertiao
+    outer:
+      serializedVersion: 2
+      x: 225
+      y: 13
+      width: 140
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 225
+      y: 13
+      width: 140
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00714285718
+    paddingTop: 0
+    paddingBottom: .0588235296
+  - name: Player_attk01
+    outer:
+      serializedVersion: 2
+      x: 900
+      y: 346
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 900
+      y: 346
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: .0299999993
+    paddingRight: .0299999993
+    paddingTop: .0399999991
+    paddingBottom: .0299999993
+  - name: Player_player07
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 168
+      width: 224
+      height: 278
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 168
+      width: 224
+      height: 278
+    rotated: 0
+    paddingLeft: .0357142873
+    paddingRight: .0491071418
     paddingTop: .0251798555
     paddingBottom: .0467625894
   - name: Player_player06
     outer:
       serializedVersion: 2
-      x: 229
-      y: 129
-      width: 225
+      x: 225
+      y: 168
+      width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 229
-      y: 129
-      width: 225
+      x: 225
+      y: 168
+      width: 224
       height: 278
     rotated: 0
-    paddingLeft: .0311111119
-    paddingRight: .0488888882
+    paddingLeft: .0357142873
+    paddingRight: .0491071418
     paddingTop: .0251798555
     paddingBottom: .0467625894
-  - name: Player_player07
+  - name: Player_att07
     outer:
       serializedVersion: 2
-      x: 2
-      y: 129
-      width: 225
+      x: 900
+      y: 176
+      width: 83
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 900
+      y: 176
+      width: 83
+      height: 68
+    rotated: 0
+    paddingLeft: .0481927693
+    paddingRight: .228915662
+    paddingTop: .132352948
+    paddingBottom: .441176474
+  - name: Player_attk02
+    outer:
+      serializedVersion: 2
+      x: 1351
+      y: 799
+      width: 99
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 1351
+      y: 799
+      width: 99
+      height: 99
+    rotated: 0
+    paddingLeft: .0303030312
+    paddingRight: .0404040404
+    paddingTop: .0404040404
+    paddingBottom: .0404040404
+  - name: Player_player04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 168
+      width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 2
-      y: 129
-      width: 225
+      x: 0
+      y: 168
+      width: 224
       height: 278
     rotated: 0
-    paddingLeft: .0311111119
-    paddingRight: .0488888882
+    paddingLeft: .0357142873
+    paddingRight: .0491071418
     paddingTop: .0251798555
     paddingBottom: .0467625894
-  - name: Player_playertiao
+  - name: btn2
     outer:
       serializedVersion: 2
-      x: 1500
-      y: 2
-      width: 141
-      height: 18
+      x: 675
+      y: 91
+      width: 184
+      height: 76
     inner:
       serializedVersion: 2
-      x: 1500
-      y: 2
-      width: 141
-      height: 18
+      x: 675
+      y: 91
+      width: 184
+      height: 76
     rotated: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Player_playertiao0
+  - name: btn2_down
     outer:
       serializedVersion: 2
-      x: 1643
-      y: 2
-      width: 141
-      height: 18
+      x: 675
+      y: 14
+      width: 184
+      height: 76
     inner:
       serializedVersion: 2
-      x: 1643
-      y: 2
-      width: 141
-      height: 18
+      x: 675
+      y: 14
+      width: 184
+      height: 76
     rotated: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: btn4
+    outer:
+      serializedVersion: 2
+      x: 1648
+      y: 948
+      width: 184
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 1648
+      y: 948
+      width: 184
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baocun
+    outer:
+      serializedVersion: 2
+      x: 937
+      y: 28
+      width: 76
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 937
+      y: 28
+      width: 76
+      height: 38
+    rotated: 0
+    paddingLeft: .0263157897
+    paddingRight: .0394736826
+    paddingTop: .0789473653
+    paddingBottom: .0789473653
+  - name: btn4_down
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 34
+      width: 184
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 34
+      width: 184
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jiegu
+    outer:
+      serializedVersion: 2
+      x: 1723
+      y: 909
+      width: 75
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1723
+      y: 909
+      width: 75
+      height: 38
+    rotated: 0
+    paddingLeft: .0399999991
+    paddingRight: .0399999991
+    paddingTop: .0789473653
+    paddingBottom: .105263159
+  - name: bg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 447
+      width: 1024
+      height: 577
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 447
+      width: 1024
+      height: 577
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn5
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 111
+      width: 184
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 111
+      width: 184
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnsilver1_down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 28
+      width: 217
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 28
+      width: 217
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnsilver1
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 34
+      width: 215
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 34
+      width: 215
+      height: 66
+    rotated: 0
+    paddingLeft: .00930232555
+    paddingRight: 0
+    paddingTop: .0151515156
+    paddingBottom: .0303030312
+  - name: btnsilver2_down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 98
+      width: 217
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 98
+      width: 217
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnsilver3
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 101
+      width: 215
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 101
+      width: 215
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00465116277
+    paddingTop: .0151515156
+    paddingBottom: .0303030312
+  - name: btnsilver3_down
+    outer:
+      serializedVersion: 2
+      x: 225
+      y: 98
+      width: 216
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 225
+      y: 98
+      width: 216
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnsilver2
+    outer:
+      serializedVersion: 2
+      x: 225
+      y: 31
+      width: 217
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 225
+      y: 31
+      width: 217
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0151515156
+    paddingBottom: .0303030312
+  - name: qianyue
+    outer:
+      serializedVersion: 2
+      x: 1648
+      y: 908
+      width: 74
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1648
+      y: 908
+      width: 74
+      height: 39
+    rotated: 0
+    paddingLeft: .0405405387
+    paddingRight: .0540540554
+    paddingTop: .051282052
+    paddingBottom: .0769230798
+  - name: fangqi
+    outer:
+      serializedVersion: 2
+      x: 860
+      y: 28
+      width: 76
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 860
+      y: 28
+      width: 76
+      height: 38
+    rotated: 0
+    paddingLeft: .0263157897
+    paddingRight: .0394736826
+    paddingTop: .0789473653
+    paddingBottom: .0789473653
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

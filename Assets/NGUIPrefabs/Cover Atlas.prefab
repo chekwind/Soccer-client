@@ -40,53 +40,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 57df680365e374291b94b1ae98ae002e, type: 2}
   sprites:
-  - name: gamerinfocover
-    outer:
-      serializedVersion: 2
-      x: 2
-      y: 2
-      width: 1024
-      height: 577
-    inner:
-      serializedVersion: 2
-      x: 2
-      y: 2
-      width: 1024
-      height: 577
-    rotated: 0
-    paddingLeft: .001953125
-    paddingRight: .001953125
-    paddingTop: 0
-    paddingBottom: 0
-  - name: storecover
-    outer:
-      serializedVersion: 2
-      x: 1028
-      y: 2
-      width: 810
-      height: 145
-    inner:
-      serializedVersion: 2
-      x: 1028
-      y: 2
-      width: 810
-      height: 145
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
   - name: storecover2
     outer:
       serializedVersion: 2
-      x: 2
-      y: 581
+      x: 1025
+      y: 1870
       width: 812
       height: 32
     inner:
       serializedVersion: 2
-      x: 2
-      y: 581
+      x: 1025
+      y: 1870
       width: 812
       height: 32
     rotated: 0
@@ -97,16 +61,124 @@ MonoBehaviour:
   - name: traincover
     outer:
       serializedVersion: 2
-      x: 816
-      y: 581
+      x: 0
+      y: 1350
       width: 1024
-      height: 122
+      height: 121
     inner:
       serializedVersion: 2
-      x: 816
-      y: 581
+      x: 0
+      y: 1350
       width: 1024
-      height: 122
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .00826446246
+    paddingBottom: 0
+  - name: gamerinfocover
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1472
+      width: 1024
+      height: 576
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1472
+      width: 1024
+      height: 576
+    rotated: 0
+    paddingLeft: .001953125
+    paddingRight: .001953125
+    paddingTop: 0
+    paddingBottom: .00173611112
+  - name: storecover
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1903
+      width: 810
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1903
+      width: 810
+      height: 145
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnsilver3_down
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1730
+      width: 216
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1730
+      width: 216
+      height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnsilver1
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1663
+      width: 215
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1663
+      width: 215
+      height: 66
+    rotated: 0
+    paddingLeft: .00930232555
+    paddingRight: 0
+    paddingTop: .0151515156
+    paddingBottom: .0303030312
+  - name: btnsilver3
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1596
+      width: 215
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1596
+      width: 215
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00465116277
+    paddingTop: .0151515156
+    paddingBottom: .0303030312
+  - name: btnsilver1_down
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1800
+      width: 217
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1800
+      width: 217
+      height: 69
     rotated: 0
     paddingLeft: 0
     paddingRight: 0

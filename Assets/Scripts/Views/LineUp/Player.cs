@@ -23,6 +23,7 @@ public class Player:MonoBehaviour{
 
 			labelName.text = json.PlayerName.ToString ();
 			labelPower.text = json.PlayerPower.ToString ();
+			spriteHead.spriteName=json.Photo;
 			spriteClick.enabled=false;
 
 			switch (json.Role) {

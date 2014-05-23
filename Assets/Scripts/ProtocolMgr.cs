@@ -28,6 +28,8 @@ public class ProtocolMgr : MonoBehaviour {
 		Register (new StoreInfoProtocol ());
 		Register (new BuyItemProtocol ());
 		Register (new UseItemProtocol ());
+		Register (new CreateRoleProtocol ());
+		Register (new RegisterProtocol ());
 	}
 	
 	public void Register(IProtocol protocol) {

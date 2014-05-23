@@ -12,6 +12,7 @@ public class PlayerJson{
 	public int Height{ get; set;}
 	public int Weight{ get; set; }
 	public string PlayerPos{ get; set; }
+	public string Photo{ get; set; }
 	public int Level{ get; set; }
 	public string Nationality{ get; set;}
 	public float Shoot{ get; set; }

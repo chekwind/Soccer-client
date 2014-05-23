@@ -18,7 +18,7 @@ public class PlayerInnerView:MonoBehaviour{
 	}
 	
 	void Update(){
-		if (ctime1 == 0 && ctime2 == 0) {
+		if (ctime1 == 0 && ctime2 == 0 && cs1==0 && cs2==0) {
 			CancelInvoke();
 		}
 	}
@@ -30,7 +30,7 @@ public class PlayerInnerView:MonoBehaviour{
 			ctime1-=1;
 			DateTime time=new DateTime();
 			time=time.AddSeconds(ctime1);
-			labelbai.text=time.ToString("hh:mm:ss")+"后免费";
+			labelbai.text=time.ToString("HH:mm:ss")+"后免费";
 		}else{
 			labelbai.text="免费次数："+cs1.ToString();
 		}
@@ -41,7 +41,7 @@ public class PlayerInnerView:MonoBehaviour{
 			ctime2-=1;
 			DateTime time=new DateTime();
 			time=time.AddSeconds(ctime2);
-			labelqian.text=time.ToString("hh:mm:ss")+"后免费";
+			labelqian.text=time.ToString("HH:mm:ss")+"后免费";
 		}else{
 			labelqian.text="免费次数："+cs2.ToString();
 		}
@@ -127,11 +127,11 @@ public class PlayerInnerView:MonoBehaviour{
 		labelpoint.text = "剩余点数：" + data.point.ToString();
 		LeagueIndex = leagueindex;
 		switch(LeagueIndex){
-		case 1:sprite1.spriteName="Main_btn2_down";sprite2.spriteName=sprite3.spriteName=sprite4.spriteName=sprite5.spriteName="Main_btn2";break;
-		case 2:sprite2.spriteName="Main_btn2_down";sprite1.spriteName=sprite3.spriteName=sprite4.spriteName=sprite5.spriteName="Main_btn2";break;
-		case 3:sprite3.spriteName="Main_btn2_down";sprite2.spriteName=sprite1.spriteName=sprite4.spriteName=sprite5.spriteName="Main_btn2";break;
-		case 4:sprite4.spriteName="Main_btn2_down";sprite2.spriteName=sprite3.spriteName=sprite1.spriteName=sprite5.spriteName="Main_btn2";break;
-		case 5:sprite5.spriteName="Main_btn2_down";sprite2.spriteName=sprite3.spriteName=sprite4.spriteName=sprite1.spriteName="Main_btn2";break;
+		case 1:sprite1.spriteName="btnsilver1_down";sprite2.spriteName=sprite3.spriteName=sprite4.spriteName="btnsilver2";sprite5.spriteName="btnsilver3";break;
+		case 2:sprite2.spriteName="btnsilver2_down";sprite1.spriteName=sprite3.spriteName=sprite4.spriteName="btnsilver2";sprite5.spriteName="btnsilver3";break;
+		case 3:sprite3.spriteName="btnsilver2_down";sprite2.spriteName=sprite1.spriteName=sprite4.spriteName="btnsilver2";sprite5.spriteName="btnsilver3";break;
+		case 4:sprite4.spriteName="btnsilver2_down";sprite2.spriteName=sprite3.spriteName=sprite1.spriteName="btnsilver2";sprite5.spriteName="btnsilver3";break;
+		case 5:sprite5.spriteName="btnsilver3_down";sprite2.spriteName=sprite3.spriteName=sprite4.spriteName="btnsilver2";sprite1.spriteName="btnsilver1";break;
 		default:break;
 		}
 		cs1 = data.cs1;
@@ -153,11 +153,11 @@ public class PlayerInnerView:MonoBehaviour{
 	}
 	public void onLeagueIndex(GameObject sprite){
 		switch(sprite.name){
-		case "Sprite1":sprite1.spriteName="Main_btn2_down";sprite2.spriteName=sprite3.spriteName=sprite4.spriteName=sprite5.spriteName="Main_btn2";LeagueIndex=1;break;
-		case "Sprite2":sprite2.spriteName="Main_btn2_down";sprite1.spriteName=sprite3.spriteName=sprite4.spriteName=sprite5.spriteName="Main_btn2";LeagueIndex=2;break;
-		case "Sprite3":sprite3.spriteName="Main_btn2_down";sprite2.spriteName=sprite1.spriteName=sprite4.spriteName=sprite5.spriteName="Main_btn2";LeagueIndex=3;break;
-		case "Sprite4":sprite4.spriteName="Main_btn2_down";sprite2.spriteName=sprite3.spriteName=sprite1.spriteName=sprite5.spriteName="Main_btn2";LeagueIndex=4;break;
-		case "Sprite5":sprite5.spriteName="Main_btn2_down";sprite2.spriteName=sprite3.spriteName=sprite4.spriteName=sprite1.spriteName="Main_btn2";LeagueIndex=5;break;
+		case "Sprite1":sprite1.spriteName="btnsilver1_down";sprite2.spriteName=sprite3.spriteName=sprite4.spriteName="btnsilver2";sprite5.spriteName="btnsilver3";LeagueIndex=1;break;
+		case "Sprite2":sprite2.spriteName="btnsilver2_down";sprite1.spriteName=sprite3.spriteName=sprite4.spriteName="btnsilver2";sprite5.spriteName="btnsilver3";LeagueIndex=2;break;
+		case "Sprite3":sprite3.spriteName="btnsilver2_down";sprite2.spriteName=sprite1.spriteName=sprite4.spriteName="btnsilver2";sprite5.spriteName="btnsilver3";LeagueIndex=3;break;
+		case "Sprite4":sprite4.spriteName="btnsilver2_down";sprite2.spriteName=sprite3.spriteName=sprite1.spriteName="btnsilver2";sprite5.spriteName="btnsilver3";LeagueIndex=4;break;
+		case "Sprite5":sprite5.spriteName="btnsilver3_down";sprite2.spriteName=sprite3.spriteName=sprite4.spriteName="btnsilver2";sprite1.spriteName="btnsilver1";LeagueIndex=5;break;
 		default:break;
 		}
 

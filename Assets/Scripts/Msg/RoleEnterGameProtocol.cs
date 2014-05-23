@@ -8,8 +8,8 @@ public class RoleEnterGameProtocol:IProtocol{
 		if (data != null) {
 			if(data.result){
 				if (!data.data.hasRole) {
-					//					Globals.It.ShowKaiChangGifView();
 					Globals.It.HideWaiting();
+					Globals.It.ShowCreateRoleView();
 				}
 				else {
 					Globals.It.MainGamer.proMain.SetRoleEnterGame(data.data);

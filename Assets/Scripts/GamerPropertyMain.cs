@@ -74,6 +74,7 @@ public class GamerPropertyMain  {
 			PlayerJson pj=new PlayerJson();
 			pj.id=player.id;
 			pj.PlayerName=player.PlayerName;
+			pj.Photo=player.Photo;
 			pj.PlayerPower=player.PlayerPower;
 			pj.Role=player.Role;
 			pj.PlayerQuality=player.PlayerQuality;

@@ -14,6 +14,7 @@ public class PlayerItem:MonoBehaviour{
 
 		labelName.text = json.PlayerName.ToString();
 		labelPower.text = json.PlayerPower.ToString();
+		spriteHead.spriteName = json.Photo;
 		labelLevel.text = "Lv "+json.Level.ToString ();
 
 		switch(json.Role){

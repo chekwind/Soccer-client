@@ -40,107 +40,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: b29c08a72a3e6418aa870e7e75775cbc, type: 2}
   sprites:
-  - name: store_bg
+  - name: store_middlecoin
     outer:
       serializedVersion: 2
-      x: 2
-      y: 2
-      width: 940
-      height: 557
+      x: 84
+      y: 275
+      width: 118
+      height: 45
     inner:
       serializedVersion: 2
-      x: 2
-      y: 2
-      width: 940
-      height: 557
+      x: 84
+      y: 275
+      width: 118
+      height: 45
     rotated: 0
-    paddingLeft: .00851063803
-    paddingRight: .00638297852
-    paddingTop: .0179533213
-    paddingBottom: 0
-  - name: store_buy
-    outer:
-      serializedVersion: 2
-      x: 610
-      y: 596
-      width: 83
-      height: 84
-    inner:
-      serializedVersion: 2
-      x: 610
-      y: 596
-      width: 83
-      height: 84
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: store_buyclick
-    outer:
-      serializedVersion: 2
-      x: 880
-      y: 561
-      width: 83
-      height: 84
-    inner:
-      serializedVersion: 2
-      x: 880
-      y: 561
-      width: 83
-      height: 84
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: store_buyshowmsg
-    outer:
-      serializedVersion: 2
-      x: 2
-      y: 561
-      width: 606
-      height: 447
-    inner:
-      serializedVersion: 2
-      x: 2
-      y: 561
-      width: 606
-      height: 447
-    rotated: 0
-    paddingLeft: .00495049497
-    paddingRight: .037953794
-    paddingTop: .00447427295
-    paddingBottom: .0447427295
-  - name: store_coin
-    outer:
-      serializedVersion: 2
-      x: 944
-      y: 124
-      width: 33
-      height: 34
-    inner:
-      serializedVersion: 2
-      x: 944
-      y: 124
-      width: 33
-      height: 34
-    rotated: 0
-    paddingLeft: .151515156
-    paddingRight: .0909090936
-    paddingTop: .117647059
-    paddingBottom: .0588235296
+    paddingLeft: .0169491526
+    paddingRight: .00847457629
+    paddingTop: .0444444455
+    paddingBottom: .0444444455
   - name: store_coinbg
     outer:
       serializedVersion: 2
-      x: 610
-      y: 561
+      x: 203
+      y: 287
       width: 147
       height: 33
     inner:
       serializedVersion: 2
-      x: 610
-      y: 561
+      x: 203
+      y: 287
       width: 147
       height: 33
     rotated: 0
@@ -148,53 +76,35 @@ MonoBehaviour:
     paddingRight: .0272108838
     paddingTop: .121212125
     paddingBottom: .121212125
-  - name: store_left
+  - name: store_bg
     outer:
       serializedVersion: 2
-      x: 944
-      y: 63
-      width: 51
-      height: 59
+      x: 0
+      y: 467
+      width: 940
+      height: 557
     inner:
       serializedVersion: 2
-      x: 944
-      y: 63
-      width: 51
-      height: 59
+      x: 0
+      y: 467
+      width: 940
+      height: 557
     rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
+    paddingLeft: .00851063803
+    paddingRight: .00638297852
+    paddingTop: .0179533213
     paddingBottom: 0
-  - name: store_middlecoin
-    outer:
-      serializedVersion: 2
-      x: 759
-      y: 561
-      width: 119
-      height: 45
-    inner:
-      serializedVersion: 2
-      x: 759
-      y: 561
-      width: 119
-      height: 45
-    rotated: 0
-    paddingLeft: .00840336177
-    paddingRight: .00840336177
-    paddingTop: .0444444455
-    paddingBottom: .0444444455
   - name: store_right
     outer:
       serializedVersion: 2
-      x: 944
-      y: 2
+      x: 941
+      y: 965
       width: 51
       height: 59
     inner:
       serializedVersion: 2
-      x: 944
-      y: 2
+      x: 941
+      y: 965
       width: 51
       height: 59
     rotated: 0
@@ -202,17 +112,53 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: store_left
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 905
+      width: 51
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 905
+      width: 51
+      height: 59
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: store_coin
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 871
+      width: 33
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 871
+      width: 33
+      height: 33
+    rotated: 0
+    paddingLeft: .151515156
+    paddingRight: .0909090936
+    paddingTop: .151515156
+    paddingBottom: .0606060624
   - name: store_singlebg
     outer:
       serializedVersion: 2
-      x: 2
-      y: 1010
+      x: 0
+      y: 321
       width: 449
       height: 145
     inner:
       serializedVersion: 2
-      x: 2
-      y: 1010
+      x: 0
+      y: 321
       width: 449
       height: 145
     rotated: 0
@@ -220,6 +166,42 @@ MonoBehaviour:
     paddingRight: .0155902002
     paddingTop: .0344827585
     paddingBottom: .0344827585
+  - name: buy
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 236
+      width: 83
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 236
+      width: 83
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: buy_down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 151
+      width: 83
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 151
+      width: 83
+      height: 84
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

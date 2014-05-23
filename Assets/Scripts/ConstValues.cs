@@ -2,7 +2,9 @@ using UnityEngine;
 using System.Collections;
 
 public class Const_ICommand {
+	public const int UserRegister = 100;
 	public const int UserLogin = 101;
+	public const int CreateRole = 102;
 	public const int RoleEnterGame = 103;
 	public const int GamerStat = 105;
 	public const int GetPlayerList = 401;

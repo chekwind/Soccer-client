@@ -602,7 +602,7 @@ Transform:
   m_GameObject: {fileID: 100040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 235.5, y: 160.5, z: -20}
-  m_LocalScale: {x: 117, y: 75, z: 1}
+  m_LocalScale: {x: 72, y: 54, z: 1}
   m_Children: []
   m_Father: {fileID: 400038}
 --- !u!4 &400042
@@ -658,8 +658,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 110, y: 70, z: 0}
-  m_Center: {x: 235, y: 160, z: -18}
+  m_Size: {x: 72, y: 54, z: 0}
+  m_Center: {x: 250, y: 165, z: 0}
 --- !u!65 &6500006
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -696,12 +696,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: 0f2baab2bd1fe4969bdb87e1421e1184, type: 2}
-  mTex: {fileID: 2800000, guid: d87984531c76c4a9db9c3923f91e907e, type: 3}
+  mTex: {fileID: 2800000, guid: 1c6ec72e3851d4c0dbc9b7628c3c2f03, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
   mAtlas: {fileID: 11400000, guid: d0dc86e496e7243718d7b3aa1d87acb3, type: 2}
-  mSpriteName: publick_showmsg
+  mSpriteName: public_showmsg
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -742,12 +742,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: 0f2baab2bd1fe4969bdb87e1421e1184, type: 2}
-  mTex: {fileID: 2800000, guid: d87984531c76c4a9db9c3923f91e907e, type: 3}
+  mTex: {fileID: 2800000, guid: 1c6ec72e3851d4c0dbc9b7628c3c2f03, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: d0dc86e496e7243718d7b3aa1d87acb3, type: 2}
-  mSpriteName: public_14
+  mSpriteName: queding
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -765,12 +765,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: 0f2baab2bd1fe4969bdb87e1421e1184, type: 2}
-  mTex: {fileID: 2800000, guid: d87984531c76c4a9db9c3923f91e907e, type: 3}
+  mTex: {fileID: 2800000, guid: 1c6ec72e3851d4c0dbc9b7628c3c2f03, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
   mAtlas: {fileID: 11400000, guid: d0dc86e496e7243718d7b3aa1d87acb3, type: 2}
-  mSpriteName: public_02
+  mSpriteName: btn2
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -994,7 +994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: b29c08a72a3e6418aa870e7e75775cbc, type: 2}
-  mTex: {fileID: 2800000, guid: 137ccc117c626495f95d5d6100021a93, type: 3}
+  mTex: {fileID: 2800000, guid: 1d60e4e77f27342c58bc22a4193c1e00, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
@@ -1017,7 +1017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: b29c08a72a3e6418aa870e7e75775cbc, type: 2}
-  mTex: {fileID: 2800000, guid: 137ccc117c626495f95d5d6100021a93, type: 3}
+  mTex: {fileID: 2800000, guid: 1d60e4e77f27342c58bc22a4193c1e00, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: b29c08a72a3e6418aa870e7e75775cbc, type: 2}
-  mTex: {fileID: 2800000, guid: 137ccc117c626495f95d5d6100021a93, type: 3}
+  mTex: {fileID: 2800000, guid: 1d60e4e77f27342c58bc22a4193c1e00, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
@@ -1206,9 +1206,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 11400046}
-  normalSprite: public_bigclose
-  hoverSprite: public_bigclose
-  pressedSprite: public_bigcloseclick
+  normalSprite: close
+  hoverSprite: close
+  pressedSprite: close_down
   disabledSprite: public_bigcloseclick
 --- !u!114 &11400042
 MonoBehaviour:
@@ -1275,12 +1275,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: 907d66ae4b5b14045a70b7f2c212d568, type: 2}
-  mTex: {fileID: 2800000, guid: ea019caefd003488ea10b7ee3160945f, type: 3}
+  mTex: {fileID: 2800000, guid: b952a05e4053c475c87a61255b0f8bde, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 12d107178ad134c7d83e1c8b208c3620, type: 2}
-  mSpriteName: public_bigclose
+  mSpriteName: close
   mFillCenter: 1
   mType: 0
   mFillDirection: 4

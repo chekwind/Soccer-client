@@ -65,6 +65,7 @@ public class StoreView:MonoBehaviour{
 		labelcoin.text = Globals.It.MainGamer.proMain.iCoin.ToString();
 	}
 	public void onClose(){
+		Debug.Log ("111");
 		Globals.It.DestoryStoreView ();
 	}
 }

@@ -18,7 +18,7 @@ public class InnerPlayer:MonoBehaviour{
 			spriteHead.enabled=false;
 		} else {
 			playerjson = json;
-
+			spriteHead.spriteName=json.Photo;
 			labelName.text = json.PlayerName.ToString ();
 
 
@@ -46,6 +46,7 @@ public class InnerPlayer:MonoBehaviour{
 				Weight=playerjson.Weight,
 				Nationality=playerjson.Nationality,
 				Role=playerjson.Role,
+				Photo=playerjson.Photo,
 			};
 			Globals.It.ShowPlayerSignView(data,2);
 		}

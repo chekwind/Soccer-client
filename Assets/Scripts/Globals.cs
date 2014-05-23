@@ -38,6 +38,7 @@ public class Globals : MonoBehaviour {
 	private BagView m_BagView;
 	private StoreView m_StoreView;
 	private BuyView m_BuyView;
+	private CreateRoleView m_CreateRoleView;
 
 	public bool bUseLocalResources{ get { return m_bUseLocalResources; } }
 	public string sBundlePath{ get { return m_sBundlePath; } }
@@ -281,6 +282,28 @@ public class Globals : MonoBehaviour {
 		}
 
 	}
+	#region createrole
+	public void ShowCreateRoleView(){//创建视图
+		if (m_CreateRoleView == null) {
+			System.Action<Object> handler = (asset) => {
+				if (asset != null) {
+					GameObject creareroleObject = (GameObject)GameObject.Instantiate (asset);
+					m_CreateRoleView = creareroleObject.GetComponent<CreateRoleView> ();
+					m_CreateRoleView.show ();
+					NGUIUtility.SetParent (waitingParentT, creareroleObject.transform);
+				}
+			};
+			StartCoroutine (BundleMgr.CreateObject (kResource.View, "CreateRoleView", "CreateRoleView", handler));
+		}
+	}
+
+	public void DestoryCreateRoleView(){//销毁视图
+		if (m_CreateRoleView != null) {
+			GameObject.DestroyImmediate(m_CreateRoleView.gameObject,true);
+			m_CreateRoleView=null;
+		}
+	}
+	#endregion
 	public void ShowMainView(){//创建主界面视图
 		if (m_MainView == null) {
 			System.Action<Object> handler = (asset) => {

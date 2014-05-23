@@ -7,7 +7,7 @@ public class PlayerView:MonoBehaviour{
 
 	public UILabel labelName, labelPower, labelLevel,labelRole,labelPlayerQuality,labelNationality,labelShoot,labelDribbling,labelSpeed,labelPass,labelTackle,labelTackling,labelSave,labelResponse,labelTrainPoint;
 	public UISlider PlayerExpSlider,ShootSlider,DribblingSlider,PassSlider,SpeedSlider,TackleSlider,TacklingSlider,SaveSlider,ResponseSliser;
-	public UISprite spriteHeadCol,spriteshoot,spritedribbling,spritespeed,spritepass,spritetackle,spritetackling,spritesave,spriteresponse;
+	public UISprite spriteHeadCol,spriteshoot,spritedribbling,spritespeed,spritepass,spritetackle,spritetackling,spritesave,spriteresponse,spritehead;
 	public UIImageButton btnDismiss,btnSave;
 	private PlayerJson playerjson=new PlayerJson();
 	private bool isontouch;
@@ -46,6 +46,7 @@ public class PlayerView:MonoBehaviour{
 		labelTackling.text = json.Tackling.ToString ();
 		labelSave.text = json._Save.ToString ();
 		labelResponse.text = json.Response.ToString ();
+		spritehead.spriteName = json.Photo;
 		labelTrainPoint.text="全队训练点："+Globals.It.MainGamer.proMain.iTrainPoint.ToString();
 		trainpoint = Globals.It.MainGamer.proMain.iTrainPoint;
 		PlayerExpSlider.sliderValue = json.Exp / json.MaxExp;

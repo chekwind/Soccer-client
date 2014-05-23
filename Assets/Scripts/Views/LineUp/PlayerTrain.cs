@@ -16,6 +16,7 @@ public class PlayerTrain:MonoBehaviour{
 		labelName.text = json.PlayerName.ToString();
 		labelPower.text = json.PlayerPower.ToString();
 		labelLevel.text = "Lv "+json.Level.ToString ();
+		spriteHead.spriteName = json.Photo;
 		spriteBtnLvUp.enabled = false;
 		labelCategory.enabled = false;
 		ExpSlider.sliderValue = json.Exp / json.MaxExp;

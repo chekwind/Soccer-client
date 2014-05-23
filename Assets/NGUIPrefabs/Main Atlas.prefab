@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 5
+  m_Name: Main Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 65904ce3903284d8db79ddab581da90a, type: 2}
+  sprites:
+  - name: main_top
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1364
+      width: 959
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1364
+      width: 959
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0232558139
+    paddingBottom: 0
+  - name: Main_s4
+    outer:
+      serializedVersion: 2
+      x: 1322
+      y: 1912
+      width: 603
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 1322
+      y: 1912
+      width: 603
+      height: 17
+    rotated: 0
+    paddingLeft: .00165837479
+    paddingRight: .00165837479
+    paddingTop: .0588235296
+    paddingBottom: .0588235296
+  - name: MainScene
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1408
+      width: 1136
+      height: 640
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1408
+      width: 1136
+      height: 640
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: main_bottom
+    outer:
+      serializedVersion: 2
+      x: 1137
+      y: 1930
+      width: 843
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 1137
+      y: 1930
+      width: 843
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: renwu
+    outer:
+      serializedVersion: 2
+      x: 1322
+      y: 1609
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1322
+      y: 1609
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: liaotian
+    outer:
+      serializedVersion: 2
+      x: 1322
+      y: 1411
+      width: 98
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1322
+      y: 1411
+      width: 98
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bag
+    outer:
+      serializedVersion: 2
+      x: 1322
+      y: 1710
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1322
+      y: 1710
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mail
+    outer:
+      serializedVersion: 2
+      x: 1322
+      y: 1510
+      width: 98
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1322
+      y: 1510
+      width: 98
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuli
+    outer:
+      serializedVersion: 2
+      x: 1322
+      y: 1811
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1322
+      y: 1811
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shangcheng
+    outer:
+      serializedVersion: 2
+      x: 1137
+      y: 1444
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1137
+      y: 1444
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: paiming
+    outer:
+      serializedVersion: 2
+      x: 1137
+      y: 1545
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1137
+      y: 1545
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn1
+    outer:
+      serializedVersion: 2
+      x: 1137
+      y: 1646
+      width: 164
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1137
+      y: 1646
+      width: 164
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0548780486
+    paddingTop: 0
+    paddingBottom: .046875
+  - name: btn2
+    outer:
+      serializedVersion: 2
+      x: 1137
+      y: 1776
+      width: 184
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 1137
+      y: 1776
+      width: 184
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn1_down
+    outer:
+      serializedVersion: 2
+      x: 1137
+      y: 1711
+      width: 164
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1137
+      y: 1711
+      width: 164
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0548780486
+    paddingTop: 0
+    paddingBottom: .046875
+  - name: btn2_down
+    outer:
+      serializedVersion: 2
+      x: 1137
+      y: 1853
+      width: 184
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 1137
+      y: 1853
+      width: 184
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: playercenter
+    outer:
+      serializedVersion: 2
+      x: 1423
+      y: 1881
+      width: 109
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1423
+      y: 1881
+      width: 109
+      height: 30
+    rotated: 0
+    paddingLeft: .0917431191
+    paddingRight: .0825688094
+    paddingTop: .166666672
+    paddingBottom: .166666672
+  - name: tradecenter
+    outer:
+      serializedVersion: 2
+      x: 1423
+      y: 1850
+      width: 108
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1423
+      y: 1850
+      width: 108
+      height: 30
+    rotated: 0
+    paddingLeft: .0648148134
+    paddingRight: .0740740746
+    paddingTop: .166666672
+    paddingBottom: .13333334
+  - name: midman
+    outer:
+      serializedVersion: 2
+      x: 1981
+      y: 2018
+      width: 56
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1981
+      y: 2018
+      width: 56
+      height: 30
+    rotated: 0
+    paddingLeft: .5
+    paddingRight: .5
+    paddingTop: .100000001
+    paddingBottom: .0666666701
+  - name: matchcenter
+    outer:
+      serializedVersion: 2
+      x: 1423
+      y: 1819
+      width: 108
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1423
+      y: 1819
+      width: 108
+      height: 30
+    rotated: 0
+    paddingLeft: .0185185187
+    paddingRight: .0185185187
+    paddingTop: .100000001
+    paddingBottom: .0666666701
+  - name: trainbase
+    outer:
+      serializedVersion: 2
+      x: 1238
+      y: 1615
+      width: 81
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1238
+      y: 1615
+      width: 81
+      height: 30
+    rotated: 0
+    paddingLeft: .185185179
+    paddingRight: .197530866
+    paddingTop: .100000001
+    paddingBottom: .0666666701
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

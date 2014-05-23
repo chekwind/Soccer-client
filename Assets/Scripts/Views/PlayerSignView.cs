@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class PlayerSignView:MonoBehaviour{
 
 	public UILabel labelname, labelquality, labelrole, labelnation, labelheight, labelweight,labelpower;
-	public UISprite spriteHeadCol;
+	public UISprite spriteHeadCol,spritehead;
 	public UIImageButton btnsign, btndismiss;
 	public UIPanel panelmask;
 
@@ -25,6 +25,7 @@ public class PlayerSignView:MonoBehaviour{
 		labelnation.text = json.Nationality.ToString ();
 		labelheight.text = json.Height.ToString () + "cm";
 		labelweight.text = json.Weight.ToString () + "kg";
+		spritehead.spriteName = json.Photo;
 
 		switch(json.Role){
 		case 1:labelrole.text="门将";;break;

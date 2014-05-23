@@ -18,6 +18,19 @@ public class Data_UserLogin_R:Data_Base
 	public string message{ get; set; }
 	public Data data{ get; set; }
 }
+public class Data_CreateRole:Data_Base
+{
+	public int userId{ get; set; }
+	public string rolename{ get; set; }
+}
+public class Data_CreateRole_R:Data_Base
+{
+	public class Data{
+	}
+	public bool result { get; set; }
+	public string message{ get; set; }
+	public Data data{ get; set; }
+}
 public class Data_RoleEnterGame:Data_Base
 {
 	public int userId{ get; set; }
@@ -89,6 +102,7 @@ public class Data_PlayerList_R:Data_Base
 		public int Height{ get; set;}
 		public int Weight{ get; set; }
 		public string PlayerPos{ get; set; }
+		public string Photo{ get; set; }
 		public int Level{ get; set; }
 		public string Nationality{ get; set; }
 		public float Shoot{ get; set; }
@@ -210,6 +224,7 @@ public class Data_PickPlayer_R:Data_Base
 	public class player{
 		public int id{ get; set; }
 		public string PlayerName{ get; set; }
+		public string Photo{ get; set; }
 		public int PlayerPower{ get; set; }
 		public int Role{ get; set; }
 		public int PlayerQuality{ get; set; }

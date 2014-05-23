@@ -8,11 +8,11 @@ public class PlayerListParent:MonoBehaviour
 	public PlayerItem playerItem;
 
 	private Vector3[] playerItemPos={
-		new Vector3(-160,180,0),
-		new Vector3(-160,106,0),
-		new Vector3(-160,33,0),
-		new Vector3(-160,-40,0),
-		new Vector3(-160,-114,0),
+		new Vector3(-160,180,-1),
+		new Vector3(-160,106,-1),
+		new Vector3(-160,33,-1),
+		new Vector3(-160,-40,-1),
+		new Vector3(-160,-114,-1),
 	};
 
 	public PlayerItem[] Init (int iStart,int iEnd){

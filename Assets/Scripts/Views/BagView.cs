@@ -25,9 +25,9 @@ public class BagView:MonoBehaviour{
 		GameObject gridItem = (GameObject)GameObject.Instantiate (gridChildItem);
 		itemParent = gridItem.GetComponent<BagParent> ();
 		switch(ItemPage){
-		case 1:spritebtn1.spriteName="bag_0011Down";spritebtn2.spriteName="bag_022";spritebtn3.spriteName="bag_033";break;
-		case 2:spritebtn1.spriteName="bag_011";spritebtn2.spriteName="bag_0022Down";spritebtn3.spriteName="bag_033";break;
-		case 3:spritebtn1.spriteName="bag_011";spritebtn2.spriteName="bag_022";spritebtn3.spriteName="bag_0033Down";break;
+		case 1:spritebtn1.spriteName="btnsilver1_down";spritebtn2.spriteName="btnsilver2";spritebtn3.spriteName="btnsilver3";break;
+		case 2:spritebtn1.spriteName="btnsilver1";spritebtn2.spriteName="btnsilver2_down";spritebtn3.spriteName="btnsilver3";break;
+		case 3:spritebtn1.spriteName="btnsilver1";spritebtn2.spriteName="btnsilver2";spritebtn3.spriteName="btnsilver3_down";break;
 		default:break;
 		}
 		m_Items.AddRange (itemParent.Init(ItemPage));
