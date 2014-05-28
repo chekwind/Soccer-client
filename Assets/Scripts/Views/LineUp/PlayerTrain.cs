@@ -17,11 +17,11 @@ public class PlayerTrain:MonoBehaviour{
 		labelPower.text = json.PlayerPower.ToString();
 		labelLevel.text = "Lv "+json.Level.ToString ();
 		spriteHead.spriteName = json.Photo;
-		spriteBtnLvUp.enabled = false;
+		spriteBtnLvUp.gameObject.SetActive(false);
 		labelCategory.enabled = false;
 		ExpSlider.sliderValue = json.Exp / json.MaxExp;
-		if (ExpSlider.sliderValue > 1) {
-			spriteBtnLvUp.enabled=true;
+		if (ExpSlider.sliderValue == 1) {
+			spriteBtnLvUp.gameObject.SetActive(true);
 		}
 		if (json.PlayerCategory == 2) {
 			labelCategory.enabled = true;
@@ -49,7 +49,13 @@ public class PlayerTrain:MonoBehaviour{
 		Globals.It.ShowPlayerInfo (playerjson,2);
 	}
 	public void onLevelUp(){
-		Debug.Log ("111");
+		Data_PlayerUpdate data = new Data_PlayerUpdate (){
+			characterId=Globals.It.MainGamer.proMain.iCharacterId,
+			playerid=playerjson.id,
+			gamecoin=0,
+			itemid=0,
+		};
+		Globals.It.SendMsg (data, Const_ICommand.PlayerUpdate);
 	}
 	
 	

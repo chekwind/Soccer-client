@@ -9,17 +9,17 @@ public class BuyView:MonoBehaviour{
 	public UILabel labelName, labelCost, labelDes, labelTotal,labelNum;
 	public UISprite spriteIcon;
 	private int cost;
-	private ItemJson itemjson;
+	Data_StoreInfo_R.items  itemtemp = new Data_StoreInfo_R.items ();
 
-	public void show(ItemJson json){
-		itemjson = json;
-		labelName.text = json.ItemName.ToString();
-		labelCost.text = json.cost.ToString ();
-		labelDes.text = json.Description.ToString ();
-		spriteIcon.spriteName = json.Icon.ToString ();
+	public void show(Data_StoreInfo_R.items item){
+		itemtemp = item;
+		labelName.text = item.item.ItemName.ToString();
+		labelCost.text = item.cost.ToString ();
+		labelDes.text = item.item.Description.ToString ();
+		spriteIcon.spriteName = item.item.Icon.ToString ();
 		labelNum.text = "1";
-		cost = json.cost;
-		labelTotal.text = (Convert.ToInt32 (labelNum.text) * json.cost).ToString () + "金币";
+		cost = item.cost;
+		labelTotal.text = (Convert.ToInt32 (labelNum.text) * item.cost).ToString () + "金币";
 	}
 	public void onAdd(){
 		labelNum.text = (Convert.ToInt32 (labelNum.text) + 1).ToString ();
@@ -37,7 +37,7 @@ public class BuyView:MonoBehaviour{
 		Data_BuyItem data = new Data_BuyItem (){
 			characterId=Globals.It.MainGamer.proMain.iCharacterId,
 			shopCategory=1,
-			itemId=itemjson.itemid,
+			itemId=itemtemp.id,
 			buyNum=Convert.ToInt32 (labelNum.text),
 		};
 		Globals.It.SendMsg (data, Const_ICommand.BuyItem);

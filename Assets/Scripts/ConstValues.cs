@@ -19,6 +19,9 @@ public class Const_ICommand {
 	public const int StoreInfo = 701;
 	public const int BuyItem = 702;
 	public const int UseItem=202;
+	public const int PlayerUpdate = 404;
+	public const int GetEmails = 501;
+	public const int GetTrainMatch = 1101;
 }
 
 public class Const_SPath {

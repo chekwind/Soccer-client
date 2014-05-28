@@ -646,8 +646,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 150, y: 50, z: 0}
-  m_Center: {x: 0, y: -100, z: -.5}
+  m_Size: {x: 184, y: 76, z: 0}
+  m_Center: {x: 0, y: -100, z: -.75}
 --- !u!65 &6500004
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -803,9 +803,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 11400006}
-  normalSprite: public_02
-  hoverSprite: public_02
-  pressedSprite: public_03
+  normalSprite: btn2
+  hoverSprite: btn2
+  pressedSprite: btn2_down
   disabledSprite: 
 --- !u!114 &11400012
 MonoBehaviour:

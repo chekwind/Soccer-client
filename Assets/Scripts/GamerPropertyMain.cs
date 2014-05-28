@@ -22,7 +22,6 @@ public class GamerPropertyMain  {
 	public int iTacticsPoint{ get; set;}
 	public List<PlayerJson> lPlayerList = new List<PlayerJson> ();
 	public List<ItemJson> lBagItemList = new List<ItemJson> ();
-	public List<ItemJson> lStoreItemList = new List<ItemJson> ();
 	public List<PlayerJson> rotateplayer = new List<PlayerJson> ();
 	public PlayerJson playertemp = new PlayerJson();
 	
@@ -118,19 +117,6 @@ public class GamerPropertyMain  {
 			ij.ItemPage=item.tempinfo.ItemPage;
 			ij.UseType=item.tempinfo.UseType;
 			lBagItemList.Add(ij);
-		}
-	}
-	public void SetStoreItemList(Data_StoreInfo_R.Data data){
-		lStoreItemList.Clear();
-		Data_StoreInfo_R.items[] il = data.items;
-		foreach (Data_StoreInfo_R.items item in il) {
-			ItemJson ij=new ItemJson();
-			ij.itemid=item.id;
-			ij.ItemName=item.item.ItemName;
-			ij.cost=item.cost;
-			ij.Icon=item.item.Icon;
-			ij.Description=item.item.Description;
-			lStoreItemList.Add(ij);
 		}
 	}
 }

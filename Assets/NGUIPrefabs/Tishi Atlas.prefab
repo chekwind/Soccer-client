@@ -40,24 +40,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 0f2baab2bd1fe4969bdb87e1421e1184, type: 2}
   sprites:
-  - name: public_showmsg
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 700
-      width: 532
-      height: 324
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 700
-      width: 532
-      height: 324
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
   - name: public_Over1
     outer:
       serializedVersion: 2
@@ -143,6 +125,24 @@ MonoBehaviour:
       y: 703
       width: 184
       height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: public_showmsg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 700
+      width: 532
+      height: 324
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 700
+      width: 532
+      height: 324
     rotated: 0
     paddingLeft: 0
     paddingRight: 0

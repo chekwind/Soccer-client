@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameCenter Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 19d817c7692c04271ad33ec90676b23a, type: 2}
+  sprites:
+  - name: TourList_star0
+    outer:
+      serializedVersion: 2
+      x: 1647
+      y: 1504
+      width: 44
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1647
+      y: 1504
+      width: 44
+      height: 42
+    rotated: 0
+    paddingLeft: .0681818202
+    paddingRight: .0454545468
+    paddingTop: .0476190485
+    paddingBottom: .0476190485
+  - name: TourList_05
+    outer:
+      serializedVersion: 2
+      x: 1367
+      y: 1547
+      width: 139
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 1367
+      y: 1547
+      width: 139
+      height: 61
+    rotated: 0
+    paddingLeft: .0431654677
+    paddingRight: 0
+    paddingTop: .114754096
+    paddingBottom: .114754096
+  - name: GameCenter_Star
+    outer:
+      serializedVersion: 2
+      x: 1948
+      y: 2010
+      width: 40
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1948
+      y: 2010
+      width: 40
+      height: 38
+    rotated: 0
+    paddingLeft: .0250000004
+    paddingRight: .0250000004
+    paddingTop: .0263157897
+    paddingBottom: .0263157897
+  - name: GameCenter_RedTiao
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1489
+      width: 239
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1489
+      width: 239
+      height: 59
+    rotated: 0
+    paddingLeft: .0753138065
+    paddingRight: .066945605
+    paddingTop: .118644066
+    paddingBottom: .220338985
+  - name: TourList_pagedou0
+    outer:
+      serializedVersion: 2
+      x: 1265
+      y: 1485
+      width: 19
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 1485
+      width: 19
+      height: 19
+    rotated: 0
+    paddingLeft: .105263159
+    paddingRight: .105263159
+    paddingTop: .157894731
+    paddingBottom: .105263159
+  - name: GameCenter_OG
+    outer:
+      serializedVersion: 2
+      x: 581
+      y: 427
+      width: 237
+      height: 347
+    inner:
+      serializedVersion: 2
+      x: 581
+      y: 427
+      width: 237
+      height: 347
+    rotated: 0
+    paddingLeft: .0379746817
+    paddingRight: .0337552726
+    paddingTop: .0115273772
+    paddingBottom: .0201729108
+  - name: TourList_pagedou1
+    outer:
+      serializedVersion: 2
+      x: 1285
+      y: 1485
+      width: 19
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 1285
+      y: 1485
+      width: 19
+      height: 19
+    rotated: 0
+    paddingLeft: .105263159
+    paddingRight: .105263159
+    paddingTop: .157894731
+    paddingBottom: .105263159
+  - name: TourList_02
+    outer:
+      serializedVersion: 2
+      x: 1507
+      y: 1547
+      width: 139
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 1507
+      y: 1547
+      width: 139
+      height: 61
+    rotated: 0
+    paddingLeft: .0431654677
+    paddingRight: 0
+    paddingTop: .114754096
+    paddingBottom: .114754096
+  - name: TourList_03
+    outer:
+      serializedVersion: 2
+      x: 1367
+      y: 1485
+      width: 139
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 1367
+      y: 1485
+      width: 139
+      height: 61
+    rotated: 0
+    paddingLeft: .0431654677
+    paddingRight: 0
+    paddingTop: .114754096
+    paddingBottom: .114754096
+  - name: GameCenter_traindown
+    outer:
+      serializedVersion: 2
+      x: 581
+      y: 775
+      width: 237
+      height: 347
+    inner:
+      serializedVersion: 2
+      x: 581
+      y: 775
+      width: 237
+      height: 347
+    rotated: 0
+    paddingLeft: .0379746817
+    paddingRight: .0337552726
+    paddingTop: .0115273772
+    paddingBottom: .0201729108
+  - name: Tour_04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 591
+      width: 341
+      height: 439
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 591
+      width: 341
+      height: 439
+    rotated: 0
+    paddingLeft: .0821114406
+    paddingRight: .0909090936
+    paddingTop: .0569476075
+    paddingBottom: .0364464708
+  - name: GameCenter_30Level
+    outer:
+      serializedVersion: 2
+      x: 1709
+      y: 1577
+      width: 107
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1709
+      y: 1577
+      width: 107
+      height: 30
+    rotated: 0
+    paddingLeft: .0373831764
+    paddingRight: .0467289723
+    paddingTop: .100000001
+    paddingBottom: .100000001
+  - name: GameCenter_train
+    outer:
+      serializedVersion: 2
+      x: 581
+      y: 1123
+      width: 237
+      height: 347
+    inner:
+      serializedVersion: 2
+      x: 581
+      y: 1123
+      width: 237
+      height: 347
+    rotated: 0
+    paddingLeft: .0379746817
+    paddingRight: .0337552726
+    paddingTop: .0115273772
+    paddingBottom: .0201729108
+  - name: Tour_01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1031
+      width: 341
+      height: 439
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1031
+      width: 341
+      height: 439
+    rotated: 0
+    paddingLeft: .0821114406
+    paddingRight: .0909090936
+    paddingTop: .0569476075
+    paddingBottom: .0364464708
+  - name: GameCenter_OGdown
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 79
+      width: 237
+      height: 347
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 79
+      width: 237
+      height: 347
+    rotated: 0
+    paddingLeft: .0379746817
+    paddingRight: .0337552726
+    paddingTop: .0115273772
+    paddingBottom: .0201729108
+  - name: TourList_Cardbg
+    outer:
+      serializedVersion: 2
+      x: 581
+      y: 116
+      width: 215
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 581
+      y: 116
+      width: 215
+      height: 310
+    rotated: 0
+    paddingLeft: .0232558139
+    paddingRight: .0232558139
+    paddingTop: .0193548389
+    paddingBottom: .0161290318
+  - name: Tour_03
+    outer:
+      serializedVersion: 2
+      x: 1367
+      y: 1609
+      width: 341
+      height: 439
+    inner:
+      serializedVersion: 2
+      x: 1367
+      y: 1609
+      width: 341
+      height: 439
+    rotated: 0
+    paddingLeft: .0821114406
+    paddingRight: .0909090936
+    paddingTop: .0569476075
+    paddingBottom: .0364464708
+  - name: GameCenter_tour
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 1123
+      width: 238
+      height: 347
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 1123
+      width: 238
+      height: 347
+    rotated: 0
+    paddingLeft: .0336134471
+    paddingRight: .0336134471
+    paddingTop: .0115273772
+    paddingBottom: .0201729108
+  - name: GameCenter_arena
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 427
+      width: 237
+      height: 347
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 427
+      width: 237
+      height: 347
+    rotated: 0
+    paddingLeft: .0379746817
+    paddingRight: .0337552726
+    paddingTop: .0115273772
+    paddingBottom: .0201729108
+  - name: GameCenter_18Level
+    outer:
+      serializedVersion: 2
+      x: 1709
+      y: 1608
+      width: 107
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1709
+      y: 1608
+      width: 107
+      height: 30
+    rotated: 0
+    paddingLeft: .0373831764
+    paddingRight: .0467289723
+    paddingTop: .100000001
+    paddingBottom: .100000001
+  - name: Tour_02
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1609
+      width: 341
+      height: 439
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1609
+      width: 341
+      height: 439
+    rotated: 0
+    paddingLeft: .0821114406
+    paddingRight: .0909090936
+    paddingTop: .0569476075
+    paddingBottom: .0364464708
+  - name: GameCenter_tourdown
+    outer:
+      serializedVersion: 2
+      x: 1709
+      y: 1701
+      width: 238
+      height: 347
+    inner:
+      serializedVersion: 2
+      x: 1709
+      y: 1701
+      width: 238
+      height: 347
+    rotated: 0
+    paddingLeft: .0336134471
+    paddingRight: .0336134471
+    paddingTop: .0115273772
+    paddingBottom: .0201729108
+  - name: TourList_Cardbg0
+    outer:
+      serializedVersion: 2
+      x: 819
+      y: 1160
+      width: 215
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 1160
+      width: 215
+      height: 310
+    rotated: 0
+    paddingLeft: .0232558139
+    paddingRight: .0232558139
+    paddingTop: .0193548389
+    paddingBottom: .0161290318
+  - name: TourList_star1
+    outer:
+      serializedVersion: 2
+      x: 1647
+      y: 1566
+      width: 44
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1647
+      y: 1566
+      width: 44
+      height: 42
+    rotated: 0
+    paddingLeft: .0454545468
+    paddingRight: .0681818202
+    paddingTop: .0476190485
+    paddingBottom: .0476190485
+  - name: Tour_lock3
+    outer:
+      serializedVersion: 2
+      x: 1265
+      y: 1505
+      width: 87
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 1505
+      width: 87
+      height: 103
+    rotated: 0
+    paddingLeft: .103448279
+    paddingRight: .103448279
+    paddingTop: .0873786435
+    paddingBottom: .126213595
+  - name: TourList_04
+    outer:
+      serializedVersion: 2
+      x: 1709
+      y: 1639
+      width: 139
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 1709
+      y: 1639
+      width: 139
+      height: 61
+    rotated: 0
+    paddingLeft: .0431654677
+    paddingRight: 0
+    paddingTop: .114754096
+    paddingBottom: .114754096
+  - name: TourList_01
+    outer:
+      serializedVersion: 2
+      x: 1507
+      y: 1485
+      width: 139
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 1507
+      y: 1485
+      width: 139
+      height: 61
+    rotated: 0
+    paddingLeft: .0431654677
+    paddingRight: 0
+    paddingTop: .114754096
+    paddingBottom: .114754096
+  - name: GameCenter_OraTiao
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1549
+      width: 239
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1549
+      width: 239
+      height: 59
+    rotated: 0
+    paddingLeft: .0753138065
+    paddingRight: .066945605
+    paddingTop: .118644066
+    paddingBottom: .220338985
+  - name: Tour_05
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 153
+      width: 341
+      height: 437
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 153
+      width: 341
+      height: 437
+    rotated: 0
+    paddingLeft: .0821114406
+    paddingRight: .0909090936
+    paddingTop: .061784897
+    paddingBottom: .0366132706
+  - name: GameCenter_arenadown
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 775
+      width: 237
+      height: 347
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 775
+      width: 237
+      height: 347
+    rotated: 0
+    paddingLeft: .0379746817
+    paddingRight: .0337552726
+    paddingTop: .0115273772
+    paddingBottom: .0201729108
+  - name: bg3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1471
+      width: 1024
+      height: 577
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1471
+      width: 1024
+      height: 577
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

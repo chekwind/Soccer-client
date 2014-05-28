@@ -30,6 +30,9 @@ public class ProtocolMgr : MonoBehaviour {
 		Register (new UseItemProtocol ());
 		Register (new CreateRoleProtocol ());
 		Register (new RegisterProtocol ());
+		Register (new PlayerUpdateProtocol ());
+		Register (new GetEmailsProtocol ());
+		Register (new GetTrainMatchProtocol ());
 	}
 	
 	public void Register(IProtocol protocol) {

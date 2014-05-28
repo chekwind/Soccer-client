@@ -62,13 +62,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1350
+      y: 772
       width: 1024
       height: 121
     inner:
       serializedVersion: 2
       x: 0
-      y: 1350
+      y: 772
       width: 1024
       height: 121
     rotated: 0
@@ -80,13 +80,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1472
+      y: 894
       width: 1024
       height: 576
     inner:
       serializedVersion: 2
       x: 0
-      y: 1472
+      y: 894
       width: 1024
       height: 576
     rotated: 0
@@ -179,6 +179,24 @@ MonoBehaviour:
       y: 1800
       width: 217
       height: 69
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: News_bg_cover
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1471
+      width: 1024
+      height: 577
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1471
+      width: 1024
+      height: 577
     rotated: 0
     paddingLeft: 0
     paddingRight: 0

@@ -7,8 +7,7 @@ public class StoreInfoProtocol:IProtocol{
 		Data_StoreInfo_R data = Globals.ToObject<Data_StoreInfo_R> (info.body);
 		if (data != null) {
 			if(data.result){
-				Globals.It.MainGamer.proMain.SetStoreItemList(data.data);
-				Globals.It.ShowStoreView();
+				Globals.It.ShowStoreView(data.data);
 			}
 			else{
 				Globals.It.HideWaiting();

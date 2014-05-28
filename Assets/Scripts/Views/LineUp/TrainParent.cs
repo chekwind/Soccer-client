@@ -9,9 +9,9 @@ public class TrainParent:MonoBehaviour
 	
 	private Vector3[] playerPos={
 		new Vector3(0,160,0),
-		new Vector3(0,50,0),
-		new Vector3(0,-60,0),
-		new Vector3(0,-170,0),
+		new Vector3(0,53,0),
+		new Vector3(0,-55,0),
+		new Vector3(0,-162,0),
 	};
 	
 	public PlayerTrain[] Init (int iStart,int iEnd){

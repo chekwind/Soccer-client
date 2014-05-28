@@ -10,6 +10,7 @@ public class PlayerTrainingProtocol:IProtocol{
 				Globals.It.MainGamer.proMain.bNeedRefresh=true;
 				Globals.It.RefreshPlayerList();
 				Globals.It.ShowMainView();
+//				Globals.It.ShowSuccess(data.message);
 			}
 			else{
 				Globals.It.HideWaiting();

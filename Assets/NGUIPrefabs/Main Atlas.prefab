@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: main_top
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1364
+      x: 976
+      y: 1886
       width: 959
       height: 43
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1364
+      x: 976
+      y: 1886
       width: 959
       height: 43
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: Main_s4
     outer:
       serializedVersion: 2
-      x: 1322
-      y: 1912
+      x: 1161
+      y: 1868
       width: 603
       height: 17
     inner:
       serializedVersion: 2
-      x: 1322
-      y: 1912
+      x: 1161
+      y: 1868
       width: 603
       height: 17
     rotated: 0
@@ -76,17 +76,35 @@ MonoBehaviour:
     paddingRight: .00165837479
     paddingTop: .0588235296
     paddingBottom: .0588235296
+  - name: main_bottom
+    outer:
+      serializedVersion: 2
+      x: 976
+      y: 1930
+      width: 843
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 1930
+      width: 843
+      height: 118
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: MainScene
     outer:
       serializedVersion: 2
       x: 0
-      y: 1408
+      y: 440
       width: 1136
       height: 640
     inner:
       serializedVersion: 2
       x: 0
-      y: 1408
+      y: 440
       width: 1136
       height: 640
     rotated: 0
@@ -94,53 +112,17 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: main_bottom
+  - name: mail
     outer:
       serializedVersion: 2
-      x: 1137
-      y: 1930
-      width: 843
-      height: 118
-    inner:
-      serializedVersion: 2
-      x: 1137
-      y: 1930
-      width: 843
-      height: 118
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: renwu
-    outer:
-      serializedVersion: 2
-      x: 1322
-      y: 1609
-      width: 100
-      height: 100
-    inner:
-      serializedVersion: 2
-      x: 1322
-      y: 1609
-      width: 100
-      height: 100
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: liaotian
-    outer:
-      serializedVersion: 2
-      x: 1322
-      y: 1411
+      x: 1161
+      y: 1769
       width: 98
       height: 98
     inner:
       serializedVersion: 2
-      x: 1322
-      y: 1411
+      x: 1161
+      y: 1769
       width: 98
       height: 98
     rotated: 0
@@ -151,68 +133,14 @@ MonoBehaviour:
   - name: bag
     outer:
       serializedVersion: 2
-      x: 1322
-      y: 1710
+      x: 976
+      y: 1578
       width: 100
       height: 100
     inner:
       serializedVersion: 2
-      x: 1322
-      y: 1710
-      width: 100
-      height: 100
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: mail
-    outer:
-      serializedVersion: 2
-      x: 1322
-      y: 1510
-      width: 98
-      height: 98
-    inner:
-      serializedVersion: 2
-      x: 1322
-      y: 1510
-      width: 98
-      height: 98
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: fuli
-    outer:
-      serializedVersion: 2
-      x: 1322
-      y: 1811
-      width: 100
-      height: 100
-    inner:
-      serializedVersion: 2
-      x: 1322
-      y: 1811
-      width: 100
-      height: 100
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: shangcheng
-    outer:
-      serializedVersion: 2
-      x: 1137
-      y: 1444
-      width: 100
-      height: 100
-    inner:
-      serializedVersion: 2
-      x: 1137
-      y: 1444
+      x: 976
+      y: 1578
       width: 100
       height: 100
     rotated: 0
@@ -223,14 +151,14 @@ MonoBehaviour:
   - name: paiming
     outer:
       serializedVersion: 2
-      x: 1137
-      y: 1545
+      x: 976
+      y: 1477
       width: 100
       height: 100
     inner:
       serializedVersion: 2
-      x: 1137
-      y: 1545
+      x: 976
+      y: 1477
       width: 100
       height: 100
     rotated: 0
@@ -238,17 +166,125 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: btn1
+  - name: head
     outer:
       serializedVersion: 2
-      x: 1137
-      y: 1646
+      x: 0
+      y: 1081
+      width: 975
+      height: 967
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1081
+      width: 975
+      height: 967
+    rotated: 0
+    paddingLeft: .00307692308
+    paddingRight: .0471794866
+    paddingTop: .0020682523
+    paddingBottom: .0568769388
+  - name: shangcheng
+    outer:
+      serializedVersion: 2
+      x: 976
+      y: 1376
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 1376
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: liaotian
+    outer:
+      serializedVersion: 2
+      x: 1161
+      y: 1670
+      width: 98
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1161
+      y: 1670
+      width: 98
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: renwu
+    outer:
+      serializedVersion: 2
+      x: 976
+      y: 1275
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 1275
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fuli
+    outer:
+      serializedVersion: 2
+      x: 976
+      y: 1174
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 1174
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn1_down
+    outer:
+      serializedVersion: 2
+      x: 976
+      y: 1744
       width: 164
       height: 64
     inner:
       serializedVersion: 2
-      x: 1137
-      y: 1646
+      x: 976
+      y: 1744
+      width: 164
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0548780486
+    paddingTop: 0
+    paddingBottom: .046875
+  - name: btn1
+    outer:
+      serializedVersion: 2
+      x: 976
+      y: 1679
+      width: 164
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 1679
       width: 164
       height: 64
     rotated: 0
@@ -259,14 +295,14 @@ MonoBehaviour:
   - name: btn2
     outer:
       serializedVersion: 2
-      x: 1137
-      y: 1776
+      x: 976
+      y: 1809
       width: 184
       height: 76
     inner:
       serializedVersion: 2
-      x: 1137
-      y: 1776
+      x: 976
+      y: 1809
       width: 184
       height: 76
     rotated: 0
@@ -274,35 +310,17 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: btn1_down
-    outer:
-      serializedVersion: 2
-      x: 1137
-      y: 1711
-      width: 164
-      height: 64
-    inner:
-      serializedVersion: 2
-      x: 1137
-      y: 1711
-      width: 164
-      height: 64
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: .0548780486
-    paddingTop: 0
-    paddingBottom: .046875
   - name: btn2_down
     outer:
       serializedVersion: 2
-      x: 1137
-      y: 1853
+      x: 1820
+      y: 1972
       width: 184
       height: 76
     inner:
       serializedVersion: 2
-      x: 1137
-      y: 1853
+      x: 1820
+      y: 1972
       width: 184
       height: 76
     rotated: 0
@@ -313,14 +331,14 @@ MonoBehaviour:
   - name: playercenter
     outer:
       serializedVersion: 2
-      x: 1423
-      y: 1881
+      x: 1820
+      y: 1941
       width: 109
       height: 30
     inner:
       serializedVersion: 2
-      x: 1423
-      y: 1881
+      x: 1820
+      y: 1941
       width: 109
       height: 30
     rotated: 0
@@ -328,35 +346,35 @@ MonoBehaviour:
     paddingRight: .0825688094
     paddingTop: .166666672
     paddingBottom: .166666672
-  - name: tradecenter
+  - name: trainbase
     outer:
       serializedVersion: 2
-      x: 1423
-      y: 1850
-      width: 108
+      x: 1077
+      y: 1648
+      width: 81
       height: 30
     inner:
       serializedVersion: 2
-      x: 1423
-      y: 1850
-      width: 108
+      x: 1077
+      y: 1648
+      width: 81
       height: 30
     rotated: 0
-    paddingLeft: .0648148134
-    paddingRight: .0740740746
-    paddingTop: .166666672
-    paddingBottom: .13333334
+    paddingLeft: .185185179
+    paddingRight: .197530866
+    paddingTop: .100000001
+    paddingBottom: .0666666701
   - name: midman
     outer:
       serializedVersion: 2
-      x: 1981
-      y: 2018
+      x: 1930
+      y: 1941
       width: 56
       height: 30
     inner:
       serializedVersion: 2
-      x: 1981
-      y: 2018
+      x: 1930
+      y: 1941
       width: 56
       height: 30
     rotated: 0
@@ -367,37 +385,19 @@ MonoBehaviour:
   - name: matchcenter
     outer:
       serializedVersion: 2
-      x: 1423
-      y: 1819
+      x: 1936
+      y: 1899
       width: 108
       height: 30
     inner:
       serializedVersion: 2
-      x: 1423
-      y: 1819
+      x: 1936
+      y: 1899
       width: 108
       height: 30
     rotated: 0
     paddingLeft: .0185185187
     paddingRight: .0185185187
-    paddingTop: .100000001
-    paddingBottom: .0666666701
-  - name: trainbase
-    outer:
-      serializedVersion: 2
-      x: 1238
-      y: 1615
-      width: 81
-      height: 30
-    inner:
-      serializedVersion: 2
-      x: 1238
-      y: 1615
-      width: 81
-      height: 30
-    rotated: 0
-    paddingLeft: .185185179
-    paddingRight: .197530866
     paddingTop: .100000001
     paddingBottom: .0666666701
   mCoordinates: 0

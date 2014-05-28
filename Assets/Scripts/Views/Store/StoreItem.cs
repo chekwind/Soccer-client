@@ -6,18 +6,17 @@ public class StoreItem:MonoBehaviour{
 	
 	public UILabel labelName,labelCost;
 	public UISprite spriteItem;
-	
-	private ItemJson itemjson;
 
+	Data_StoreInfo_R.items itemtemp=new Data_StoreInfo_R.items();
 	
-	public void SetData(ItemJson json){
-		itemjson = json;
-		labelName.text=json.ItemName.ToString();
-		labelCost.text = json.cost.ToString ();
-		spriteItem.spriteName=json.Icon;
+	public void SetData(Data_StoreInfo_R.items item){
+		itemtemp = item;
+		labelName.text=item.item.ItemName.ToString();
+		labelCost.text = item.cost.ToString ();
+		spriteItem.spriteName=item.item.Icon;
 	}
 	public void onBuy(){
-		Globals.It.ShowBuyView (itemjson);
+		Globals.It.ShowBuyView (itemtemp);
 	}
 
 

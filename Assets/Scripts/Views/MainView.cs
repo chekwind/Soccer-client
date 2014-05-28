@@ -23,7 +23,10 @@ public class MainView:MonoBehaviour{
 		Globals.It.ShowWarn (1, 13, null);
 	}
 	void onMail(){
-		Globals.It.ShowWarn (1, 13, null);
+		Data_GetEmails data = new Data_GetEmails (){
+			characterId=Globals.It.MainGamer.proMain.iCharacterId,
+		};
+		Globals.It.SendMsg (data, Const_ICommand.GetEmails);
 	}
 	void onManage(){
 		Globals.It.ShowLineUp();
@@ -51,7 +54,7 @@ public class MainView:MonoBehaviour{
 		Globals.It.SendMsg (data, Const_ICommand.StoreInfo);
 	}
 	void onMatch(){
-		Globals.It.ShowWarn (1, 13, null);
+		Globals.It.ShowGameCenter();
 	}
 	public void RefreshGamerStat(){
 		gamerStat.Refresh ();

@@ -7,7 +7,7 @@ public class PlayerView:MonoBehaviour{
 
 	public UILabel labelName, labelPower, labelLevel,labelRole,labelPlayerQuality,labelNationality,labelShoot,labelDribbling,labelSpeed,labelPass,labelTackle,labelTackling,labelSave,labelResponse,labelTrainPoint;
 	public UISlider PlayerExpSlider,ShootSlider,DribblingSlider,PassSlider,SpeedSlider,TackleSlider,TacklingSlider,SaveSlider,ResponseSliser;
-	public UISprite spriteHeadCol,spriteshoot,spritedribbling,spritespeed,spritepass,spritetackle,spritetackling,spritesave,spriteresponse,spritehead;
+	public UISprite spriteHeadCol,spriteshoot,spritedribbling,spritespeed,spritepass,spritetackle,spritetackling,spritesave,spriteresponse,spritehead,spritelvup;
 	public UIImageButton btnDismiss,btnSave;
 	private PlayerJson playerjson=new PlayerJson();
 	private bool isontouch;
@@ -50,6 +50,10 @@ public class PlayerView:MonoBehaviour{
 		labelTrainPoint.text="全队训练点："+Globals.It.MainGamer.proMain.iTrainPoint.ToString();
 		trainpoint = Globals.It.MainGamer.proMain.iTrainPoint;
 		PlayerExpSlider.sliderValue = json.Exp / json.MaxExp;
+		spritelvup.gameObject.SetActive(false);
+		if (PlayerExpSlider.sliderValue == 1) {
+			spritelvup.gameObject.SetActive(true);
+		}
 		ShootSlider.sliderValue = json.Shoot / json.MaxShoot;
 		DribblingSlider.sliderValue = json.Dribbling / json.MaxDribbling;
 		PassSlider.sliderValue = json.Pass / json.MaxPass;
@@ -62,6 +66,7 @@ public class PlayerView:MonoBehaviour{
 		if (sign == 1) {
 			btnDismiss.gameObject.SetActive(false);
 			btnSave.gameObject.SetActive(false);
+			spritelvup.gameObject.SetActive(false);
 			labelTrainPoint.enabled=false;
 			spriteshoot.GetComponent<BoxCollider>().enabled=false;
 			spritedribbling.GetComponent<BoxCollider>().enabled=false;
@@ -120,6 +125,15 @@ public class PlayerView:MonoBehaviour{
 	public void onClose(){
 		Globals.It.DestoryPlayerView ();
 	}
+	public void onLevelUp(){
+		Data_PlayerUpdate data = new Data_PlayerUpdate (){
+			characterId=Globals.It.MainGamer.proMain.iCharacterId,
+			playerid=playerjson.id,
+			gamecoin=0,
+			itemid=0,
+		};
+		Globals.It.SendMsg (data, Const_ICommand.PlayerUpdate);
+	}
 	public void onDrop(){
 		Data_DropPlayer data = new Data_DropPlayer (){
 			characterId=Globals.It.MainGamer.proMain.iCharacterId,
@@ -164,28 +178,34 @@ public class PlayerView:MonoBehaviour{
 		CancelInvoke();
 	}
 	public void Refresh(){
+		foreach (PlayerJson player in Globals.It.MainGamer.proMain.lPlayerList) {
+			if(player.id==playerjson.id){
+				playerjson=player;
+			}
+		}
 		show(playerjson,2);
 	}
 	public void add(){
 		if (isontouch) {
 			switch(attr){
-			case 1:attributeAdd(labelShoot,playerjson.MaxShoot);break;
-			case 2:attributeAdd(labelDribbling,playerjson.MaxDribbling);break;
-			case 3:attributeAdd(labelPass,playerjson.MaxPass);break;
-			case 4:attributeAdd(labelSpeed,playerjson.MaxSpeed);break;
-			case 5:attributeAdd(labelTackling,playerjson.MaxTackling);break;
-			case 6:attributeAdd(labelTackle,playerjson.MaxTackle);break;
-			case 7:attributeAdd(labelSave,playerjson.MaxSave);break;
-			case 8:attributeAdd(labelResponse,playerjson.MaxResponse);break;
+			case 1:attributeAdd(labelShoot,playerjson.MaxShoot,playerjson.Shoot);break;
+			case 2:attributeAdd(labelDribbling,playerjson.MaxDribbling,playerjson.Dribbling);break;
+			case 3:attributeAdd(labelPass,playerjson.MaxPass,playerjson.Pass);break;
+			case 4:attributeAdd(labelSpeed,playerjson.MaxSpeed,playerjson.Speed);break;
+			case 5:attributeAdd(labelTackling,playerjson.MaxTackling,playerjson.Tackling);break;
+			case 6:attributeAdd(labelTackle,playerjson.MaxTackle,playerjson.Tackle);break;
+			case 7:attributeAdd(labelSave,playerjson.MaxSave,playerjson._Save);break;
+			case 8:attributeAdd(labelResponse,playerjson.MaxResponse,playerjson.Response);break;
 			default:break;
 			}
 		}
 	}
-	private void attributeAdd(UILabel label,float max){
+	private void attributeAdd(UILabel label,float max,float oldattr){
 		int attribute=Convert.ToInt32 (label.text);
-		trainpoint-=(attribute+51)/5;
+		int cost=(50+attribute)/5;
+		trainpoint-=cost;
 		if(attribute<max&&trainpoint>0){
-			needpoint+=(attribute+51)/5;
+			needpoint+=cost;
 			labelTrainPoint.text="全队训练点："+trainpoint.ToString();
 			label.text = (attribute + 1).ToString ();
 		}else if(trainpoint<0){

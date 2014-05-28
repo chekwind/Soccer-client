@@ -47,7 +47,6 @@ public class ItemJson{
 	public string Icon{ get; set;}
 	public string ItemName{ get; set; }
 	public string UseMethod{ get; set; }
-
 	public int cost{ get; set; }
 	
 }

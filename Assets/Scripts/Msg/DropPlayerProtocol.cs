@@ -8,6 +8,7 @@ public class DropPlayerProtocol:IProtocol{
 		if (data != null) {
 			if(data.result){
 				Globals.It.MainGamer.proMain.bNeedRefresh=true;
+				Globals.It.RefreshPlayerList();
 				Globals.It.ShowMainView();			
 			}
 			else{

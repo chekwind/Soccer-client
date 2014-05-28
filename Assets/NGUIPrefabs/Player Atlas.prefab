@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: Public_Player06
     outer:
       serializedVersion: 2
-      x: 1695
-      y: 818
+      x: 216
+      y: 362
       width: 121
       height: 80
     inner:
       serializedVersion: 2
-      x: 1695
-      y: 818
+      x: 216
+      y: 362
       width: 121
       height: 80
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: Public_Player04
     outer:
       serializedVersion: 2
-      x: 1573
-      y: 818
+      x: 216
+      y: 686
       width: 121
       height: 80
     inner:
       serializedVersion: 2
-      x: 1573
-      y: 818
+      x: 216
+      y: 686
       width: 121
       height: 80
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: Public_Player01
     outer:
       serializedVersion: 2
-      x: 1451
-      y: 818
+      x: 216
+      y: 443
       width: 121
       height: 80
     inner:
       serializedVersion: 2
-      x: 1451
-      y: 818
+      x: 216
+      y: 443
       width: 121
       height: 80
     rotated: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   - name: Public_Player05
     outer:
       serializedVersion: 2
-      x: 1817
-      y: 818
+      x: 216
+      y: 524
       width: 121
       height: 80
     inner:
       serializedVersion: 2
-      x: 1817
-      y: 818
+      x: 216
+      y: 524
       width: 121
       height: 80
     rotated: 0
@@ -115,14 +115,14 @@ MonoBehaviour:
   - name: Public_Player03
     outer:
       serializedVersion: 2
-      x: 1250
-      y: 717
+      x: 216
+      y: 605
       width: 121
       height: 80
     inner:
       serializedVersion: 2
-      x: 1250
-      y: 717
+      x: 216
+      y: 605
       width: 121
       height: 80
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: Public_Player02
     outer:
       serializedVersion: 2
-      x: 1372
-      y: 717
+      x: 0
+      y: 43
       width: 121
       height: 80
     inner:
       serializedVersion: 2
-      x: 1372
-      y: 717
+      x: 0
+      y: 43
       width: 121
       height: 80
     rotated: 0
@@ -151,14 +151,14 @@ MonoBehaviour:
   - name: Player_player02
     outer:
       serializedVersion: 2
-      x: 675
-      y: 168
+      x: 1475
+      y: 1770
       width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 675
-      y: 168
+      x: 1475
+      y: 1770
       width: 224
       height: 278
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: Player_attk03
     outer:
       serializedVersion: 2
-      x: 900
-      y: 245
+      x: 1925
+      y: 1847
       width: 100
       height: 100
     inner:
       serializedVersion: 2
-      x: 900
-      y: 245
+      x: 1925
+      y: 1847
       width: 100
       height: 100
     rotated: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   - name: Player_attk05
     outer:
       serializedVersion: 2
-      x: 860
-      y: 67
+      x: 1913
+      y: 1669
       width: 100
       height: 100
     inner:
       serializedVersion: 2
-      x: 860
-      y: 67
+      x: 1913
+      y: 1669
       width: 100
       height: 100
     rotated: 0
@@ -205,14 +205,14 @@ MonoBehaviour:
   - name: Player_attk07
     outer:
       serializedVersion: 2
-      x: 1833
-      y: 924
+      x: 1918
+      y: 1544
       width: 100
       height: 100
     inner:
       serializedVersion: 2
-      x: 1833
-      y: 924
+      x: 1918
+      y: 1544
       width: 100
       height: 100
     rotated: 0
@@ -223,14 +223,14 @@ MonoBehaviour:
   - name: Player_att06
     outer:
       serializedVersion: 2
-      x: 1939
-      y: 831
+      x: 1918
+      y: 1476
       width: 80
       height: 67
     inner:
       serializedVersion: 2
-      x: 1939
-      y: 831
+      x: 1918
+      y: 1476
       width: 80
       height: 67
     rotated: 0
@@ -241,14 +241,14 @@ MonoBehaviour:
   - name: Player_attk06
     outer:
       serializedVersion: 2
-      x: 1250
-      y: 798
+      x: 101
+      y: 224
       width: 100
       height: 100
     inner:
       serializedVersion: 2
-      x: 1250
-      y: 798
+      x: 101
+      y: 224
       width: 100
       height: 100
     rotated: 0
@@ -259,14 +259,14 @@ MonoBehaviour:
   - name: Player_att01
     outer:
       serializedVersion: 2
-      x: 1707
-      y: 724
+      x: 278
+      y: 288
       width: 52
       height: 73
     inner:
       serializedVersion: 2
-      x: 1707
-      y: 724
+      x: 278
+      y: 288
       width: 52
       height: 73
     rotated: 0
@@ -277,14 +277,14 @@ MonoBehaviour:
   - name: Player_att08
     outer:
       serializedVersion: 2
-      x: 1494
-      y: 728
+      x: 100
+      y: 154
       width: 76
       height: 69
     inner:
       serializedVersion: 2
-      x: 1494
-      y: 728
+      x: 100
+      y: 154
       width: 76
       height: 69
     rotated: 0
@@ -295,14 +295,14 @@ MonoBehaviour:
   - name: Player_attk04
     outer:
       serializedVersion: 2
-      x: 1934
-      y: 924
+      x: 0
+      y: 224
       width: 100
       height: 100
     inner:
       serializedVersion: 2
-      x: 1934
-      y: 924
+      x: 0
+      y: 224
       width: 100
       height: 100
     rotated: 0
@@ -313,14 +313,14 @@ MonoBehaviour:
   - name: Player_att04
     outer:
       serializedVersion: 2
-      x: 1644
-      y: 725
+      x: 216
+      y: 214
       width: 62
       height: 72
     inner:
       serializedVersion: 2
-      x: 1644
-      y: 725
+      x: 216
+      y: 214
       width: 62
       height: 72
     rotated: 0
@@ -331,14 +331,14 @@ MonoBehaviour:
   - name: Player_player05
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 188
+      x: 1700
+      y: 1770
       width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 188
+      x: 1700
+      y: 1770
       width: 224
       height: 278
     rotated: 0
@@ -349,14 +349,14 @@ MonoBehaviour:
   - name: Player_att03
     outer:
       serializedVersion: 2
-      x: 961
-      y: 93
+      x: 216
+      y: 287
       width: 61
       height: 74
     inner:
       serializedVersion: 2
-      x: 961
-      y: 93
+      x: 216
+      y: 287
       width: 61
       height: 74
     rotated: 0
@@ -367,14 +367,14 @@ MonoBehaviour:
   - name: Player_playertiao0
     outer:
       serializedVersion: 2
-      x: 0
-      y: 9
+      x: 1025
+      y: 1472
       width: 141
       height: 18
     inner:
       serializedVersion: 2
-      x: 0
-      y: 9
+      x: 1025
+      y: 1472
       width: 141
       height: 18
     rotated: 0
@@ -385,14 +385,14 @@ MonoBehaviour:
   - name: Player_att05
     outer:
       serializedVersion: 2
-      x: 984
-      y: 172
+      x: 1999
+      y: 1471
       width: 40
       height: 72
     inner:
       serializedVersion: 2
-      x: 984
-      y: 172
+      x: 1999
+      y: 1471
       width: 40
       height: 72
     rotated: 0
@@ -403,14 +403,14 @@ MonoBehaviour:
   - name: Player_player01
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 467
+      x: 1475
+      y: 1491
       width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 467
+      x: 1475
+      y: 1491
       width: 224
       height: 278
     rotated: 0
@@ -421,14 +421,14 @@ MonoBehaviour:
   - name: Player_att02
     outer:
       serializedVersion: 2
-      x: 1571
-      y: 727
+      x: 122
+      y: 53
       width: 72
       height: 70
     inner:
       serializedVersion: 2
-      x: 1571
-      y: 727
+      x: 122
+      y: 53
       width: 72
       height: 70
     rotated: 0
@@ -439,14 +439,14 @@ MonoBehaviour:
   - name: Player_levelup
     outer:
       serializedVersion: 2
-      x: 1250
-      y: 899
+      x: 0
+      y: 767
       width: 397
       height: 125
     inner:
       serializedVersion: 2
-      x: 1250
-      y: 899
+      x: 0
+      y: 767
       width: 397
       height: 125
     rotated: 0
@@ -457,14 +457,14 @@ MonoBehaviour:
   - name: Player_player03
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 746
+      x: 1250
+      y: 1491
       width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 746
+      x: 1250
+      y: 1491
       width: 224
       height: 278
     rotated: 0
@@ -475,14 +475,14 @@ MonoBehaviour:
   - name: Player_atttiao
     outer:
       serializedVersion: 2
-      x: 450
-      y: 18
+      x: 1475
+      y: 1475
       width: 84
       height: 15
     inner:
       serializedVersion: 2
-      x: 450
-      y: 18
+      x: 1475
+      y: 1475
       width: 84
       height: 15
     rotated: 0
@@ -493,14 +493,14 @@ MonoBehaviour:
   - name: Player_playertiao
     outer:
       serializedVersion: 2
-      x: 225
-      y: 13
+      x: 1250
+      y: 1473
       width: 140
       height: 17
     inner:
       serializedVersion: 2
-      x: 225
-      y: 13
+      x: 1250
+      y: 1473
       width: 140
       height: 17
     rotated: 0
@@ -511,14 +511,14 @@ MonoBehaviour:
   - name: Player_attk01
     outer:
       serializedVersion: 2
-      x: 900
-      y: 346
+      x: 1925
+      y: 1948
       width: 100
       height: 100
     inner:
       serializedVersion: 2
-      x: 900
-      y: 346
+      x: 1925
+      y: 1948
       width: 100
       height: 100
     rotated: 0
@@ -529,14 +529,14 @@ MonoBehaviour:
   - name: Player_player07
     outer:
       serializedVersion: 2
-      x: 450
-      y: 168
+      x: 1250
+      y: 1770
       width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 450
-      y: 168
+      x: 1250
+      y: 1770
       width: 224
       height: 278
     rotated: 0
@@ -547,14 +547,14 @@ MonoBehaviour:
   - name: Player_player06
     outer:
       serializedVersion: 2
-      x: 225
-      y: 168
+      x: 1025
+      y: 1491
       width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 225
-      y: 168
+      x: 1025
+      y: 1491
       width: 224
       height: 278
     rotated: 0
@@ -565,14 +565,14 @@ MonoBehaviour:
   - name: Player_att07
     outer:
       serializedVersion: 2
-      x: 900
-      y: 176
+      x: 1925
+      y: 1778
       width: 83
       height: 68
     inner:
       serializedVersion: 2
-      x: 900
-      y: 176
+      x: 1925
+      y: 1778
       width: 83
       height: 68
     rotated: 0
@@ -583,14 +583,14 @@ MonoBehaviour:
   - name: Player_attk02
     outer:
       serializedVersion: 2
-      x: 1351
-      y: 799
+      x: 0
+      y: 124
       width: 99
       height: 99
     inner:
       serializedVersion: 2
-      x: 1351
-      y: 799
+      x: 0
+      y: 124
       width: 99
       height: 99
     rotated: 0
@@ -601,14 +601,14 @@ MonoBehaviour:
   - name: Player_player04
     outer:
       serializedVersion: 2
-      x: 0
-      y: 168
+      x: 1025
+      y: 1770
       width: 224
       height: 278
     inner:
       serializedVersion: 2
-      x: 0
-      y: 168
+      x: 1025
+      y: 1770
       width: 224
       height: 278
     rotated: 0
@@ -619,14 +619,14 @@ MonoBehaviour:
   - name: btn2
     outer:
       serializedVersion: 2
-      x: 675
-      y: 91
+      x: 0
+      y: 556
       width: 184
       height: 76
     inner:
       serializedVersion: 2
-      x: 675
-      y: 91
+      x: 0
+      y: 556
       width: 184
       height: 76
     rotated: 0
@@ -637,14 +637,14 @@ MonoBehaviour:
   - name: btn2_down
     outer:
       serializedVersion: 2
-      x: 675
-      y: 14
+      x: 833
+      y: 816
       width: 184
       height: 76
     inner:
       serializedVersion: 2
-      x: 675
-      y: 14
+      x: 833
+      y: 816
       width: 184
       height: 76
     rotated: 0
@@ -655,14 +655,14 @@ MonoBehaviour:
   - name: btn4
     outer:
       serializedVersion: 2
-      x: 1648
-      y: 948
+      x: 0
+      y: 479
       width: 184
       height: 76
     inner:
       serializedVersion: 2
-      x: 1648
-      y: 948
+      x: 0
+      y: 479
       width: 184
       height: 76
     rotated: 0
@@ -673,14 +673,14 @@ MonoBehaviour:
   - name: baocun
     outer:
       serializedVersion: 2
-      x: 937
-      y: 28
+      x: 398
+      y: 784
       width: 76
       height: 38
     inner:
       serializedVersion: 2
-      x: 937
-      y: 28
+      x: 398
+      y: 784
       width: 76
       height: 38
     rotated: 0
@@ -691,14 +691,14 @@ MonoBehaviour:
   - name: btn4_down
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 34
+      x: 0
+      y: 402
       width: 184
       height: 76
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 34
+      x: 0
+      y: 402
       width: 184
       height: 76
     rotated: 0
@@ -709,14 +709,14 @@ MonoBehaviour:
   - name: jiegu
     outer:
       serializedVersion: 2
-      x: 1723
-      y: 909
+      x: 690
+      y: 787
       width: 75
       height: 38
     inner:
       serializedVersion: 2
-      x: 1723
-      y: 909
+      x: 690
+      y: 787
       width: 75
       height: 38
     rotated: 0
@@ -728,13 +728,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 447
+      y: 893
       width: 1024
       height: 577
     inner:
       serializedVersion: 2
       x: 0
-      y: 447
+      y: 893
       width: 1024
       height: 577
     rotated: 0
@@ -745,14 +745,14 @@ MonoBehaviour:
   - name: btn5
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 111
+      x: 0
+      y: 325
       width: 184
       height: 76
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 111
+      x: 0
+      y: 325
       width: 184
       height: 76
     rotated: 0
@@ -763,14 +763,14 @@ MonoBehaviour:
   - name: btnsilver1_down
     outer:
       serializedVersion: 2
-      x: 0
-      y: 28
+      x: 1700
+      y: 1505
       width: 217
       height: 69
     inner:
       serializedVersion: 2
-      x: 0
-      y: 28
+      x: 1700
+      y: 1505
       width: 217
       height: 69
     rotated: 0
@@ -781,14 +781,14 @@ MonoBehaviour:
   - name: btnsilver1
     outer:
       serializedVersion: 2
-      x: 450
-      y: 34
+      x: 0
+      y: 633
       width: 215
       height: 66
     inner:
       serializedVersion: 2
-      x: 450
-      y: 34
+      x: 0
+      y: 633
       width: 215
       height: 66
     rotated: 0
@@ -799,14 +799,14 @@ MonoBehaviour:
   - name: btnsilver2_down
     outer:
       serializedVersion: 2
-      x: 0
-      y: 98
+      x: 1700
+      y: 1575
       width: 217
       height: 69
     inner:
       serializedVersion: 2
-      x: 0
-      y: 98
+      x: 1700
+      y: 1575
       width: 217
       height: 69
     rotated: 0
@@ -817,14 +817,14 @@ MonoBehaviour:
   - name: btnsilver3
     outer:
       serializedVersion: 2
-      x: 450
-      y: 101
+      x: 0
+      y: 700
       width: 215
       height: 66
     inner:
       serializedVersion: 2
-      x: 450
-      y: 101
+      x: 0
+      y: 700
       width: 215
       height: 66
     rotated: 0
@@ -835,14 +835,14 @@ MonoBehaviour:
   - name: btnsilver3_down
     outer:
       serializedVersion: 2
-      x: 225
-      y: 98
+      x: 398
+      y: 823
       width: 216
       height: 69
     inner:
       serializedVersion: 2
-      x: 225
-      y: 98
+      x: 398
+      y: 823
       width: 216
       height: 69
     rotated: 0
@@ -853,14 +853,14 @@ MonoBehaviour:
   - name: btnsilver2
     outer:
       serializedVersion: 2
-      x: 225
-      y: 31
+      x: 615
+      y: 826
       width: 217
       height: 66
     inner:
       serializedVersion: 2
-      x: 225
-      y: 31
+      x: 615
+      y: 826
       width: 217
       height: 66
     rotated: 0
@@ -871,14 +871,14 @@ MonoBehaviour:
   - name: qianyue
     outer:
       serializedVersion: 2
-      x: 1648
-      y: 908
+      x: 615
+      y: 786
       width: 74
       height: 39
     inner:
       serializedVersion: 2
-      x: 1648
-      y: 908
+      x: 615
+      y: 786
       width: 74
       height: 39
     rotated: 0
@@ -889,14 +889,14 @@ MonoBehaviour:
   - name: fangqi
     outer:
       serializedVersion: 2
-      x: 860
-      y: 28
+      x: 475
+      y: 784
       width: 76
       height: 38
     inner:
       serializedVersion: 2
-      x: 860
-      y: 28
+      x: 475
+      y: 784
       width: 76
       height: 38
     rotated: 0
@@ -904,6 +904,42 @@ MonoBehaviour:
     paddingRight: .0394736826
     paddingTop: .0789473653
     paddingBottom: .0789473653
+  - name: Player_leftbg
+    outer:
+      serializedVersion: 2
+      x: 1700
+      y: 1645
+      width: 212
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 1700
+      y: 1645
+      width: 212
+      height: 124
+    rotated: 0
+    paddingLeft: .0377358496
+    paddingRight: .0377358496
+    paddingTop: .0483870953
+    paddingBottom: .0403225794
+  - name: bg2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1471
+      width: 1024
+      height: 577
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1471
+      width: 1024
+      height: 577
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

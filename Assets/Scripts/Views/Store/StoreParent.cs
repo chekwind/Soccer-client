@@ -11,11 +11,11 @@ public class StoreParent:MonoBehaviour
 		new Vector3(-180,120,0),new Vector3(190,120,0),new Vector3(-180,0,0),new Vector3(190,0,0),new Vector3(-180,-120,0),new Vector3(190,-120,0),
 	};
 	
-	public StoreItem[] Init (int iStart,int iEnd){
-		List<ItemJson> itemjsons = new List<ItemJson> ();
-		foreach (ItemJson json in Globals.It.MainGamer.proMain.lStoreItemList) {
+	public StoreItem[] Init (int iStart,int iEnd,Data_StoreInfo_R.Data data){
+		List<Data_StoreInfo_R.items> itemjsons = new List<Data_StoreInfo_R.items> ();
+		foreach (Data_StoreInfo_R.items item in data.items) {
 //			if(json.ItemPage==itempage){
-				itemjsons.Add (json);
+			itemjsons.Add (item);
 //			}
 		}
 		StoreItem[] items=new StoreItem[iEnd-iStart+1];

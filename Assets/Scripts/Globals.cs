@@ -39,6 +39,9 @@ public class Globals : MonoBehaviour {
 	private StoreView m_StoreView;
 	private BuyView m_BuyView;
 	private CreateRoleView m_CreateRoleView;
+	private EmailsView m_EmailsView;
+	private GameCenterView m_GameCenterView;
+	private TrainMatchView m_TrainMatchView;
 
 	public bool bUseLocalResources{ get { return m_bUseLocalResources; } }
 	public string sBundlePath{ get { return m_sBundlePath; } }
@@ -333,14 +336,15 @@ public class Globals : MonoBehaviour {
 				if(m_StoreView!=null){
 						m_StoreView.Refresh();
 				}
+				if(m_PlayerView!=null){
+					RefreshPlayerView();
+				}
 				Globals.It.HideWaiting();
 			}
 		}
 	}
-	public void RefreshPlayerList(){
-		Data_GamerStat data=new Data_GamerStat(){characterId=MainGamer.proMain.iCharacterId};
-		Globals.It.SendMsg(data,Const_ICommand.GetPlayerList);
-	}
+
+	#region gamerinfo
 	public void ShowGamerInfoView(){//创建球队信息视图
 		if (m_GamerinfoView == null) {
 				System.Action<Object> handler = (asset) => {
@@ -360,6 +364,7 @@ public class Globals : MonoBehaviour {
 			m_GamerinfoView=null;
 		}
 	}
+	#endregion
 	#region playerinfo
 	public void ShowPlayerInfo(PlayerJson json,int sign){//创建球员信息视图
 		if (m_PlayerView == null) {
@@ -374,8 +379,14 @@ public class Globals : MonoBehaviour {
 			StartCoroutine (BundleMgr.CreateObject (kResource.View, "PlayerView", "PlayerView", handler));
 		}
 	}
+	public void RefreshPlayerList(){
+		Data_GamerStat data=new Data_GamerStat(){characterId=MainGamer.proMain.iCharacterId};
+		Globals.It.SendMsg(data,Const_ICommand.GetPlayerList);
+	}
 	public void RefreshPlayerView(){//刷新球员信息
-		m_PlayerView.Refresh();
+		if(m_PlayerView!=null){
+			m_PlayerView.Refresh();
+		}
 	}
 	public void DestoryPlayerView(){//销毁球员信息视图
 		if (m_PlayerView != null) {
@@ -551,13 +562,13 @@ public class Globals : MonoBehaviour {
 	}
 	#endregion
 	#region store
-	public void ShowStoreView(){//创建商店视图
+	public void ShowStoreView(Data_StoreInfo_R.Data data){//创建商店视图
 		if (m_StoreView == null) {
 			System.Action<Object> handler = (asset) => {
 				if (asset != null) {
 					GameObject storeObject = (GameObject)GameObject.Instantiate (asset);
 					m_StoreView = storeObject.GetComponent<StoreView> ();
-					m_StoreView.show ();
+					m_StoreView.show (data);
 					NGUIUtility.SetParent (waitingParentT, storeObject.transform);
 				}
 			};
@@ -573,13 +584,13 @@ public class Globals : MonoBehaviour {
 	}
 	#endregion
 	#region buy
-	public void ShowBuyView(ItemJson itemjson){//创建购买视图
+	public void ShowBuyView(Data_StoreInfo_R.items item){//创建购买视图
 		if (m_BuyView == null) {
 			System.Action<Object> handler = (asset) => {
 				if (asset != null) {
 					GameObject buyObject = (GameObject)GameObject.Instantiate (asset);
 					m_BuyView = buyObject.GetComponent<BuyView> ();
-					m_BuyView.show (itemjson);
+					m_BuyView.show (item);
 					NGUIUtility.SetParent (waitingParentT, buyObject.transform);
 				}
 			};
@@ -590,6 +601,69 @@ public class Globals : MonoBehaviour {
 		if (m_BuyView != null) {
 			GameObject.DestroyImmediate(m_BuyView.gameObject,true);
 			m_BuyView=null;
+		}
+	}
+	#endregion
+	#region mail
+	public void ShowEmailsView(Data_GetEmails_R.Data mails){//创建视图
+		if (m_EmailsView == null) {
+			System.Action<Object> handler = (asset) => {
+				if (asset != null) {
+					GameObject emailsObject = (GameObject)GameObject.Instantiate (asset);
+					m_EmailsView = emailsObject.GetComponent<EmailsView> ();
+					m_EmailsView.show (mails);
+					NGUIUtility.SetParent (waitingParentT, emailsObject.transform);
+				}
+			};
+			StartCoroutine (BundleMgr.CreateObject (kResource.View, "EmailsView", "EmailsView", handler));
+		}
+	}
+	public void DestoryEmailsView(){//销毁视图
+		if (m_EmailsView != null) {
+			GameObject.DestroyImmediate(m_EmailsView.gameObject,true);
+			m_EmailsView=null;
+		}
+	}
+	#endregion
+	#region gamecenter
+	public void ShowGameCenter(){//创建视图
+		if (m_GameCenterView == null) {
+			System.Action<Object> handler = (asset) => {
+				if (asset != null) {
+					GameObject gamecenterObject = (GameObject)GameObject.Instantiate (asset);
+					m_GameCenterView = gamecenterObject.GetComponent<GameCenterView> ();
+					m_GameCenterView.show ();
+					NGUIUtility.SetParent (waitingParentT, gamecenterObject.transform);
+				}
+			};
+			StartCoroutine (BundleMgr.CreateObject (kResource.View, "GameCenterView", "GameCenterView", handler));
+		}
+	}
+	public void DestoryGameCenter(){//销毁视图
+		if (m_GameCenterView != null) {
+			GameObject.DestroyImmediate(m_GameCenterView.gameObject,true);
+			m_GameCenterView=null;
+		}
+	}
+	#endregion
+	#region trainmatchview
+	public void ShowTrainMatchView(Data_GetTrainMatch_R.Data npcs){//创建视图
+		if (m_TrainMatchView == null) {
+			System.Action<Object> handler = (asset) => {
+				if (asset != null) {
+					GameObject trainmatchObject = (GameObject)GameObject.Instantiate (asset);
+					m_TrainMatchView = trainmatchObject.GetComponent<TrainMatchView> ();
+					m_TrainMatchView.show (npcs);
+					NGUIUtility.SetParent (waitingParentT, trainmatchObject.transform);
+				}
+			};
+			StartCoroutine (BundleMgr.CreateObject (kResource.View, "TrainMatchView", "TrainMatchView", handler));
+		}
+	}
+	public void DestoryTrainMatchView(){//销毁视图
+		if (m_TrainMatchView != null) {
+			GameObject.DestroyImmediate(m_TrainMatchView.gameObject,true);
+			m_TrainMatchView=null;
 		}
 	}
 	#endregion

@@ -367,3 +367,59 @@ public class Data_UseItem_R:Data_Base
 	public string message{ get; set; }
 	public Data data{ get; set; }
 }
+public class Data_PlayerUpdate:Data_Base
+{
+	public int characterId{ get; set; }
+	public int playerid{ get; set; }
+	public int gamecoin{ get; set; }
+	public int itemid{ get; set; }
+}
+public class Data_PlayerUpdate_R:Data_Base
+{
+	public class Data{
+		
+	}
+	public bool result{ get; set; }
+	public string message{ get; set; }
+	public Data data{ get; set; }
+}
+public class Data_GetEmails:Data_Base
+{
+	public int characterId{ get; set; }
+}
+public class Data_GetEmails_R:Data_Base
+{
+	public class Data{
+		public maillist[] maillist{ get; set; } 
+	}
+	public class maillist{
+		public int id{ get; set; }
+		public string title{ get; set; }
+		public string content{ get; set; }
+	}
+	public bool result{ get; set; }
+	public string message{ get; set; }
+	public Data data{ get; set; }
+}
+public class Data_GetTrainMatch:Data_Base
+{
+	public int characterId{ get; set; }
+	public int leagueindex{ get; set; }
+}
+public class Data_GetTrainMatch_R:Data_Base
+{
+	public class Data{
+		public NPC[] NPC{ get; set; }
+	}
+	public class NPC{
+		public string ClubLogo{ get; set; }
+		public string ClubName{ get; set; }
+		public int LeagueIndex{ get; set; }
+		public int ID{ get; set; }
+		public int ZenID{ get; set; }
+		public int ClubPower{ get; set; }
+	}
+	public bool result{ get; set; }
+	public string message{ get; set; }
+	public Data data{ get; set; }
+}

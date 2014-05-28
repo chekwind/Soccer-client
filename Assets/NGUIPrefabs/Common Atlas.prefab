@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: btn
     outer:
       serializedVersion: 2
-      x: 35
-      y: 90
+      x: 954
+      y: 1968
       width: 17
       height: 17
     inner:
       serializedVersion: 2
-      x: 39
-      y: 94
+      x: 958
+      y: 1972
       width: 9
       height: 9
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: h2
     outer:
       serializedVersion: 2
-      x: 2
-      y: 66
+      x: 988
+      y: 2019
       width: 31
       height: 29
     inner:
       serializedVersion: 2
-      x: 6
-      y: 70
+      x: 992
+      y: 2023
       width: 23
       height: 21
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: high
     outer:
       serializedVersion: 2
-      x: 35
-      y: 66
+      x: 931
+      y: 1963
       width: 22
       height: 22
     inner:
       serializedVersion: 2
-      x: 39
-      y: 70
+      x: 935
+      y: 1967
       width: 14
       height: 14
     rotated: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   - name: ligth
     outer:
       serializedVersion: 2
-      x: 2
-      y: 97
+      x: 988
+      y: 1990
       width: 28
       height: 28
     inner:
       serializedVersion: 2
-      x: 10
-      y: 105
+      x: 996
+      y: 1998
       width: 12
       height: 12
     rotated: 0
@@ -115,14 +115,14 @@ MonoBehaviour:
   - name: ligth2
     outer:
       serializedVersion: 2
-      x: 2
-      y: 2
+      x: 931
+      y: 1986
       width: 56
       height: 62
     inner:
       serializedVersion: 2
-      x: 28
-      y: 28
+      x: 957
+      y: 2012
       width: 4
       height: 10
     rotated: 1
@@ -130,6 +130,150 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: TeamInfo_04
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 869
+      width: 539
+      height: 1
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 869
+      width: 539
+      height: 1
+    rotated: 0
+    paddingLeft: .218923926
+    paddingRight: .135435998
+    paddingTop: 23
+    paddingBottom: 24
+  - name: TeamInfo_01
+    outer:
+      serializedVersion: 2
+      x: 327
+      y: 967
+      width: 315
+      height: 565
+    inner:
+      serializedVersion: 2
+      x: 327
+      y: 967
+      width: 315
+      height: 565
+    rotated: 0
+    paddingLeft: .0603174604
+    paddingRight: .0634920672
+    paddingTop: .0407079645
+    paddingBottom: .028318584
+  - name: TeamInfo_03
+    outer:
+      serializedVersion: 2
+      x: 643
+      y: 1324
+      width: 212
+      height: 208
+    inner:
+      serializedVersion: 2
+      x: 643
+      y: 1324
+      width: 212
+      height: 208
+    rotated: 0
+    paddingLeft: .0518867932
+    paddingRight: .0377358496
+    paddingTop: .052884616
+    paddingBottom: .057692308
+  - name: Tactical_MiddleLine
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1533
+      width: 930
+      height: 515
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1533
+      width: 930
+      height: 515
+    rotated: 0
+    paddingLeft: .0161290318
+    paddingRight: .0139784943
+    paddingTop: .0310679618
+    paddingBottom: .0271844659
+  - name: Tactical_rightbg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 871
+      width: 326
+      height: 661
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 871
+      width: 326
+      height: 661
+    rotated: 0
+    paddingLeft: .150306746
+    paddingRight: .150306746
+    paddingTop: .0287443269
+    paddingBottom: .0544629358
+  - name: TacTical_LightClickCard
+    outer:
+      serializedVersion: 2
+      x: 856
+      y: 1432
+      width: 141
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 856
+      y: 1432
+      width: 141
+      height: 100
+    rotated: 0
+    paddingLeft: .0354609936
+    paddingRight: .0354609936
+    paddingTop: .0399999991
+    paddingBottom: .0500000007
+  - name: Player_leftbg
+    outer:
+      serializedVersion: 2
+      x: 643
+      y: 1199
+      width: 212
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 643
+      y: 1199
+      width: 212
+      height: 124
+    rotated: 0
+    paddingLeft: .0377358496
+    paddingRight: .0377358496
+    paddingTop: .0483870953
+    paddingBottom: .0403225794
+  - name: store_coinbg
+    outer:
+      serializedVersion: 2
+      x: 327
+      y: 933
+      width: 147
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 327
+      y: 933
+      width: 147
+      height: 33
+    rotated: 0
+    paddingLeft: .0272108838
+    paddingRight: .0272108838
+    paddingTop: .121212125
+    paddingBottom: .121212125
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
