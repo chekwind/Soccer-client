@@ -13,10 +13,9 @@ public class TrainMatchView:MonoBehaviour{
 	public void show(Data_GetTrainMatch_R.Data npcs){
 
 		int iCount = npcs.NPC.Length / 8;
-
 		Globe.listcount = iCount-1;
 		Globe.offset = 960;
-		Globe.currentindex = 0;
+		Globe.currentindex = iCount-1;
 
 		List<Data_GetTrainMatch_R.NPC> npclist = new List<Data_GetTrainMatch_R.NPC> ();
 		for (int i=1; i<=iCount; i++) {

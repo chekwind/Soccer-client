@@ -9,6 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400002}
+  - 65: {fileID: 6500000}
+  - 114: {fileID: 11400006}
   m_Layer: 5
   m_Name: Sprite(head)
   m_TagString: Untagged
@@ -112,6 +114,18 @@ Transform:
   m_LocalScale: {x: 15, y: 15, z: 1}
   m_Children: []
   m_Father: {fileID: 400014}
+--- !u!65 &6500000
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -138,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mMat: {fileID: 2100000, guid: cf4edd614e8ca42869c07c0285f773ba, type: 2}
-  mTex: {fileID: 2800000, guid: 08b5a5065a64146a990a77135d2b8656, type: 3}
+  mTex: {fileID: 2800000, guid: 872016b8c89f542838b3ac3355bc7bdf, type: 3}
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
@@ -172,6 +186,21 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c4ff40739c7904ca26c14ffbdc4176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 100016}
+  functionName: onClick
+  trigger: 0
+  includeChildren: 0
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -189,12 +218,12 @@ MonoBehaviour:
   widgetsAreStatic: 0
   cullWhileDragging: 0
   worldToLocal:
-    e00: 1
+    e00: 1.25
     e01: 0
     e02: 0
     e03: 0
     e10: 0
-    e11: 1
+    e11: 1.25
     e12: 0
     e13: 0
     e20: 0

@@ -18,7 +18,6 @@ public class TrainMatchParent:MonoBehaviour
 		new Vector3(240,-100,0),
 	};
 	public TrainMatchNPC[] Init (List<Data_GetTrainMatch_R.NPC> npclist){
-
 		TrainMatchNPC[] npcs=new TrainMatchNPC[8];
 		for(int i=0;i<8;i++){
 			npcs[i]=(TrainMatchNPC)GameObject.Instantiate (npc);

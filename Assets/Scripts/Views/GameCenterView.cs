@@ -24,7 +24,7 @@ public class GameCenterView:MonoBehaviour{
 			Debug.Log ("1");
 			break;
 		case "Btn2":
-			int Leagueindex=5;
+			int Leagueindex=2;
 			int level=Globals.It.MainGamer.proMain.iLevel;
 			if(level>20&&level<=30){Leagueindex=2;}
 			if(level>30&&level<=40){Leagueindex=3;}

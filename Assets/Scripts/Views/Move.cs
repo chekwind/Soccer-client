@@ -46,7 +46,7 @@ public class Move:MonoBehaviour{
 
 	void OnClick(){
 		if (!isOnDrag) {
-
+//			Debug.Log ("1111");
 		}else{
 			isOnDrag=false;
 		}

@@ -6,6 +6,7 @@ public class TrainMatchNPC:MonoBehaviour{
 
 	public UILabel labelname;
 	public UISprite spritehead, spritebg;
+	
 
 	public void SetData(Data_GetTrainMatch_R.NPC npc){
 		switch (npc.LeagueIndex) {
@@ -19,6 +20,6 @@ public class TrainMatchNPC:MonoBehaviour{
 		labelname.text = npc.ClubName;
 	}
 	public void onClick(){
-
+		Debug.Log ("1111");
 	}
 }
