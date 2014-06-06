@@ -423,3 +423,31 @@ public class Data_GetTrainMatch_R:Data_Base
 	public string message{ get; set; }
 	public Data data{ get; set; }
 }
+public class Data_GetTask:Data_Base
+{
+	public int characterId{ get; set; }
+}
+public class Data_GetTask_R:Data_Base
+{
+	public class Data{
+		public tasks[] tasks{ get; set; }
+	}
+	public class tasks{
+		public string purpose{ get; set; }
+		public int expprice{ get; set; }
+		public int trainpointprice{ get; set; }
+		public int gamecoinprice{ get; set; }
+		public int stack{ get; set; }
+		public int tasktype{ get; set; }
+		public int taskgo{ get; set; }
+		public items[] items{ get; set; }
+	}
+	public class items
+	{
+		public int itemid{ get; set; }
+		public int stack{ get; set; }
+	}
+	public bool result{ get; set; }
+	public string message{ get; set; }
+	public Data data{ get; set; }
+}

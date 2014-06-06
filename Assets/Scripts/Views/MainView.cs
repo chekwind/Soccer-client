@@ -41,7 +41,10 @@ public class MainView:MonoBehaviour{
 		Globals.It.SendMsg (data, Const_ICommand.PlayerInner);
 	}
 	void onTask(){
-		Globals.It.ShowWarn (1, 13, null);
+		Data_GetTask data = new Data_GetTask (){
+			characterId=Globals.It.MainGamer.proMain.iCharacterId,
+		};
+		Globals.It.SendMsg (data, Const_ICommand.GetTask);
 	}
 	void onTrade(){
 		Globals.It.ShowWarn (1, 13, null);

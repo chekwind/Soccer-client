@@ -42,6 +42,7 @@ public class Globals : MonoBehaviour {
 	private EmailsView m_EmailsView;
 	private GameCenterView m_GameCenterView;
 	private TrainMatchView m_TrainMatchView;
+	private TaskView m_TaskView;
 
 	public bool bUseLocalResources{ get { return m_bUseLocalResources; } }
 	public string sBundlePath{ get { return m_sBundlePath; } }
@@ -343,7 +344,6 @@ public class Globals : MonoBehaviour {
 			}
 		}
 	}
-
 	#region gamerinfo
 	public void ShowGamerInfoView(){//创建球队信息视图
 		if (m_GamerinfoView == null) {
@@ -664,6 +664,27 @@ public class Globals : MonoBehaviour {
 		if (m_TrainMatchView != null) {
 			GameObject.DestroyImmediate(m_TrainMatchView.gameObject,true);
 			m_TrainMatchView=null;
+		}
+	}
+	#endregion
+	#region taskview
+	public void ShowTaskView(Data_GetTask_R.Data tasks){//创建视图
+		if (m_TaskView == null) {
+			System.Action<Object> handler = (asset) => {
+				if (asset != null) {
+					GameObject taskObject = (GameObject)GameObject.Instantiate (asset);
+					m_TaskView = taskObject.GetComponent<TaskView> ();
+					m_TaskView.show (tasks);
+					NGUIUtility.SetParent (waitingParentT, taskObject.transform);
+				}
+			};
+			StartCoroutine (BundleMgr.CreateObject (kResource.View, "TaskView", "TaskView", handler));
+		}
+	}
+	public void DestoryTaskView(){//销毁视图
+		if (m_TaskView != null) {
+			GameObject.DestroyImmediate(m_TaskView.gameObject,true);
+			m_TaskView=null;
 		}
 	}
 	#endregion

@@ -22,6 +22,7 @@ public class Const_ICommand {
 	public const int PlayerUpdate = 404;
 	public const int GetEmails = 501;
 	public const int GetTrainMatch = 1101;
+	public const int GetTask = 801;
 }
 
 public class Const_SPath {

@@ -33,6 +33,7 @@ public class ProtocolMgr : MonoBehaviour {
 		Register (new PlayerUpdateProtocol ());
 		Register (new GetEmailsProtocol ());
 		Register (new GetTrainMatchProtocol ());
+		Register (new GetTaskProtocol ());
 	}
 	
 	public void Register(IProtocol protocol) {

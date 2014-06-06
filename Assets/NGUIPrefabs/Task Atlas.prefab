@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Task Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: b0e27d2a1fb2140b4acf82f81d0ab088, type: 2}
+  sprites:
+  - name: Task_bruch
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1690
+      width: 122
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1690
+      width: 122
+      height: 122
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Task_main
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1568
+      width: 121
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1568
+      width: 121
+      height: 121
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00826446246
+    paddingTop: .00826446246
+    paddingBottom: 0
+  - name: Task_go
+    outer:
+      serializedVersion: 2
+      x: 1937
+      y: 2010
+      width: 76
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1937
+      y: 2010
+      width: 76
+      height: 38
+    rotated: 0
+    paddingLeft: .552631557
+    paddingRight: .5
+    paddingTop: .131578952
+    paddingBottom: .157894731
+  - name: Task_receive
+    outer:
+      serializedVersion: 2
+      x: 1148
+      y: 1644
+      width: 146
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1148
+      y: 1644
+      width: 146
+      height: 38
+    rotated: 0
+    paddingLeft: .0273972601
+    paddingRight: .0410958901
+    paddingTop: .157894731
+    paddingBottom: .131578952
+  - name: Task_whitebg
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1813
+      width: 911
+      height: 235
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1813
+      width: 911
+      height: 235
+    rotated: 0
+    paddingLeft: .0153677277
+    paddingRight: .0098792538
+    paddingTop: .0425531901
+    paddingBottom: .0340425521
+  - name: bg2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1471
+      width: 1024
+      height: 577
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1471
+      width: 1024
+      height: 577
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn1_down
+    outer:
+      serializedVersion: 2
+      x: 1148
+      y: 1748
+      width: 164
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1148
+      y: 1748
+      width: 164
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0548780486
+    paddingTop: 0
+    paddingBottom: .046875
+  - name: btn1
+    outer:
+      serializedVersion: 2
+      x: 1148
+      y: 1683
+      width: 164
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1148
+      y: 1683
+      width: 164
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0548780486
+    paddingTop: 0
+    paddingBottom: .046875
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
